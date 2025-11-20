@@ -1,0 +1,5 @@
+title,year,citations_scopus,citations_scholar,venue,doi,core_rank,scimago_quartile,sjr_score,type,source_type,source
+Computationally Efficient Worst-Case Analysis Of Flow-Controlled Networks With Network Calculus,2023.0,8.0,12.0,IEEE Transactions on Information Theory,10.1109/TIT.2023.3244276,N/A,Q1,"1,464",Journal,ar,Scopus + Scholar
+Extending The Network Calculus Algorithmic Toolbox For Ultimately Pseudo-Periodic Functions: Pseudo-Inverse And Composition,2023.0,1.0,6.0,Discrete Event Dynamic Systems Theory and Applications,10.1007/s10626-022-00373-5,N/A,Q2,"0,559",Journal,ar,Scopus + Scholar
+A Milp Approach To Dram Access Worst-Case Analysis,2022.0,3.0,6.0,Computers and Operations Research,10.1016/j.cor.2022.105774,B,Q1,"1,605",Journal,ar,Scopus + Scholar
+Nancy: An Efficient Parallel Network Calculus Library,2022.0,9.0,21.0,Softwarex,10.1016/j.softx.2022.101178,N/A,Q3,"0,483",Journal,ar,Scopus + Scholar

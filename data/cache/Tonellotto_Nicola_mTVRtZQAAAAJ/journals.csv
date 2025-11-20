@@ -1,0 +1,27 @@
+title,year,citations_scopus,citations_scholar,venue,doi,core_rank,scimago_quartile,sjr_score,type,source_type,source
+A Reproducible Analysis Of Sequential Recommender Systems,2025.0,4.0,20.0,IEEE Access,10.1109/ACCESS.2024.3522049,N/A,Q1,"0,849",Journal,ar,Scopus + Scholar
+The Impact Of Prediction Models On Energy-Aware Resource Management In Faas Platforms,2025.0,0.0,0.0,IEEE Access,10.1109/ACCESS.2025.3569068,N/A,Q1,"0,849",Journal,ar,Scopus + Scholar
+Fedcmd: A Federated Cross-Modal Knowledge Distillation For Drivers' Emotion Recognition,2024.0,7.0,13.0,ACM Transactions on Intelligent Systems and Technology,10.1145/3650040,N/A,Q1,"1,362",Journal,ar,Scopus + Scholar
+Caching Historical Embeddings In Conversational Search,2024.0,7.0,0.0,ACM Transactions on the Web,10.1145/3578519,N/A,Q2,"0,648",Journal,ar,Scopus + Scholar
+Personalized Query Expansion With Contextual Word Embeddings,2023.0,6.0,12.0,ACM Transactions on Information Systems,10.1145/3624988,N/A,Q1,"1,540",Journal,ar,Scopus + Scholar
+Artificial Intelligence Of Things At The Edge: Scalable And Efficient Distributed Learning For Massive Scenarios,2023.0,3.0,10.0,Computer Communications,10.1016/j.comcom.2023.04.010,B,Q1,"1,114",Journal,ar,Scopus + Scholar
+An Intelligent System For The Categorization Of Question Time Official Documents Of The Italian Chamber Of Deputies,2023.0,2.0,7.0,Journal of Information Technology and Politics,10.1080/19331681.2022.2082622,C,Q1,"1,300",Journal,ar,Scopus + Scholar
+Colbert-Prf: Semantic Pseudo-Relevance Feedback For Dense Passage And Document Retrieval,2023.0,37.0,84.0,ACM Transactions on the Web,10.1145/3572405,N/A,Q2,"0,648",Journal,ar,Scopus + Scholar
+Design Of Fault-Tolerant Distributed Cyber-Physical Systems For Smart Environments,2022.0,1.0,1.0,IEEE Embedded Systems Letters,10.1109/LES.2021.3119229,N/A,Q2,"0,434",Journal,ar,Scopus + Scholar
+Performance Evaluation Of Federated Learning For Residential Energy Forecasting,2022.0,17.0,20.0,Iot,10.3390/iot3030021,N/A,N/A,,Journal,ar,Scopus + Scholar
+Adaptive Utterance Rewriting For Conversational Search,2021.0,25.0,36.0,Information Processing and Management,10.1016/j.ipm.2021.102682,A*,Q1,"2,062",Journal,ar,Scopus + Scholar
+Neural Network Quantization In Federated Learning At The Edge,2021.0,55.0,81.0,Information Sciences,10.1016/j.ins.2021.06.039,N/A,Q1,"1,803",Journal,ar,Scopus + Scholar
+Weighting Passages Enhances Accuracy,2021.0,3.0,5.0,ACM Transactions on Information Systems,10.1145/3428687,N/A,Q1,"1,540",Journal,ar,Scopus + Scholar
+Using An Inverted Index Synopsis For Query Latency And Performance Prediction,2020.0,9.0,10.0,ACM Transactions on Information Systems,10.1145/3389795,N/A,Q1,"1,540",Journal,ar,Scopus + Scholar
+Topical Result Caching In Web Search Engines,2020.0,5.0,9.0,Information Processing and Management,10.1016/j.ipm.2019.102193,A*,Q1,"2,062",Journal,ar,Scopus + Scholar
+Parallel Traversal Of Large Ensembles Of Decision Trees,2019.0,22.0,30.0,IEEE Transactions on Parallel and Distributed Systems,10.1109/TPDS.2018.2860982,C,Q1,"2,097",Journal,ar,Scopus + Scholar
+Efficient Query Processing For Scalable Web Search,2018.0,59.0,87.0,Foundations and Trends in Information Retrieval,10.1561/1500000057,N/A,Q1,"1,535",Journal,ar,Scopus + Scholar
+Dataset Popularity Prediction For Caching Of Cms Big Data,2018.0,17.0,22.0,Journal of Grid Computing,10.1007/s10723-018-9436-4,N/A,Q2,"0,734",Journal,ar,Scopus + Scholar
+Energy-Efficient Query Processing In Web Search Engines,2017.0,20.0,28.0,IEEE Transactions on Knowledge and Data Engineering,10.1109/TKDE.2017.2681279,A,Q1,"2,570",Journal,ar,Scopus + Scholar
+Fast Ranking With Additive Ensembles Of Oblivious And Non-Oblivious Regression Trees,2016.0,89.0,136.0,ACM Transactions on Information Systems,10.1145/2987380,N/A,Q1,"1,540",Journal,ar,Scopus + Scholar
+Quality Versus Efficiency In Document Scoring With Learning-To-Rank Models,2016.0,54.0,75.0,Information Processing and Management,10.1016/j.ipm.2016.05.004,A*,Q1,"2,062",Journal,ar,Scopus + Scholar
+Queuing Theory-Based Latency/Power Tradeoff Models For Replicated Search Engines,2015.0,2.0,2.0,Journal of Universal Computer Science,,N/A,Q3,"0,284",Journal,ar,Scopus + Scholar
+Midas: A Cloud Platform For Soa Testing As A Service,2015.0,9.0,8.0,International Journal of High Performance Computing and Networking,10.1504/IJHPCN.2015.071254,B,Q4,"0,179",Journal,ar,Scopus + Scholar
+Upper-Bound Approximations For Dynamic Pruning,2011.0,30.0,50.0,ACM Transactions on Information Systems,10.1145/2037661.2037662,N/A,Q1,"1,540",Journal,re,Scopus + Scholar
+Modeling Stream Communications In Component-Based Applications,2010.0,0.0,1.0,Scalable Computing,,C,Q3,"0,218",Journal,ar,Scopus + Scholar
+A Launch-Time Scheduling Heuristics For Parallel Applications On Wide Area Grids,2008.0,7.0,9.0,Journal of Grid Computing,10.1007/s10723-006-9061-5,N/A,Q2,"0,734",Journal,ar,Scopus + Scholar

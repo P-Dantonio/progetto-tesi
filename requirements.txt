@@ -1,0 +1,9 @@
+pandas
+numpy
+matplotlib
+seaborn
+scholarly
+rapidfuzz
+requests
+fastapi      # solo se fai backend ora
+uvicorn

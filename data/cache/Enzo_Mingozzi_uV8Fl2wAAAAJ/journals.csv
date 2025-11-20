@@ -1,0 +1,70 @@
+year,title,scimago_quartile,citations_scopus,citations_scholar
+1996,A Bandwidth Reservation Protocol For Speech/Data Integration In Tdma-Based Advanced Mobile Systems,Q2,1,26.0
+1997,A Contention/Reservation Access Protocol For Speech And Data Integration In Tdma-Based Advanced Mobile Systems,Q2,7,11.0
+1998,An Efficient Numerical Method For Performance Analysis Of Contention Mac Protocols: A Case Study (Prma++),Q1,7,12.0
+1998,Mac Protocols For Wideband Wireless Local Access: Evolution Toward Wireless Atm,Q1,52,101.0
+2000,Hiperlan/1 Mac Protocol: Stability And Performance Analysis,Q1,37,60.0
+2001,Performance Evaluation Of Capacity Request And Allocation Mechanisms For Hiperlan2 Wireless Lans,Q1,13,20.0
+2002,A Unifying Service Discipline For Providing Rate-Based Guaranteed And Fair Queuing Services Based On The Timed Token Protocol,Q1,10,15.0
+2002,Packet Timed Token Service Discipline: A Scheduling Algorithm Based On The Dual-Class Paradigm For Providing Qos In Integrated Services Networks,Q1,8,10.0
+2002,Extended Performance Evaluation Of Prados: A Scheduling Algorithm For Traffic Integration In A Wireless Atm Network,Q2,12,14.0
+2004,"Tradeoffs Between Low Complexity, Low Latency, And Fairness With Deficit Round-Robin Schedulers",Q1,56,92.0
+2004,Design And Performance Analysis Of The Generalized Timed Token Service Discipline,Q1,6,9.0
+2004,Eligibility-Based Round Robin For Fair And Efficient Packet Scheduling In Wormhole Switching Networks,Q1,15,18.0
+2004,Wireless Networks: Editorial,Q2,0,0.0
+2005,Delay Bounds For Fifo Aggregates: A Case Study,Q1,30,52.0
+2006,Quality Of Service Support In Ieee 802.16 Networks,Q1,350,598.0
+2006,Special Issue Of European Transactions On Telecommunications On 'Next Generation Wireless And Mobile Communications',Q2,1,1.0
+2006,Tight End-To-End Per-Flow Delay Bounds In Fifo Multiplexing Sink-Tree Networks,Q3,83,123.0
+2007,Bandwidth Allocation With Half-Duplex Stations In Ieee 802.16 Wireless Networks,Q1,16,32.0
+2007,Design And Performance Analysis Of The Real-Time Hcca Scheduler For Ieee 802.11E Wlans,Q1,41,61.0
+2007,The Euqos System: A Solution For Qos Routing In Heterogeneous Networks,Q1,46,0.0
+2007,Performance Evaluation Of The Ieee 802.16 Mac For Qos Support,Q1,236,370.0
+2007,Performance Analysis Of Modified Deficit Round Robin Schedulers,Q3,11,16.0
+2008,Provisioning Qos In Inter-Domain Traffic Engineering,Q2,5,9.0
+2008,A Methodology For Computing End-To-End Delay Bounds In Fifo-Multiplexing Tandems,Q3,34,60.0
+2009,Euqos: End-To-End Quality Of Service Over Heterogeneous Networks,Q1,29,56.0
+2010,Reducing Power Consumption With Qos Constraints In Ieee 802.16E Wireless Networks,Q1,23,34.0
+2010,"Ieee 802.16: History, Status And Future Trends",Q1,27,59.0
+2010,A Bandwidth Request Reiteration Mechanism For Ieee 802.16 Wireless Networks,Q2,1,4.0
+2011,Efficient Two-Dimensional Packing Algorithms For Mobile Wimax,Q1,23,42.0
+2011,A Fast And Efficient Algorithm To Exploit Multi-User Diversity In Ieee 802.16 Bandamc,Q1,5,9.0
+2011,Power-Aware Opportunistic Downlink Scheduling In Ieee 802.16 Wireless Networks,Q1,0,2.0
+2011,Performance Evaluation Of H.264/Svc Video Streaming Over Mobile Wimax,Q1,10,25.0
+2011,Efficient Downlink Scheduling With Power Boosting In Mobile Ieee 802.16 Networks,Q1,0,2.0
+2011,G-Pamela: A Divide-And-Conquer Approach For Joint Channel Assignment And Routing In Multi-Radio Multi-Channel Wireless Mesh Networks,Q1,32,49.0
+2011,Improved Network Resilience Of Wireless Mesh Networks Using Mpls And Fast Re-Routing Techniques,Q1,6,7.0
+2012,Special Issue: Wireless Green Communications And Networking,Q1,1,1.0
+2012,Numerical Analysis Of Worst-Case End-To-End Delay Bounds In Fifo Tandem Networks,Q2,15,31.0
+2014,Efficient Two-Dimensional Data Allocation In Ieee 802.16 Ofdma,Q1,15,48.0
+2015,Special Issue On The Internet Of Things,Q1,0,3.0
+2015,Efficient Design Of Wireless Mesh Networks With Robust Dynamic Frequency Selection Capability,Q1,5,4.0
+2015,From Manet To People-Centric Networking: Milestones And Open Research Challenges,Q1,75,115.0
+2015,Pervasive And Mobile Computing: Editorial,Q1,0,0.0
+2016,Special Section On Selected Papers From Ifip/Ieee Sustainit 2015,Q1,0,0.0
+2016,Efficient Handoff Based On Link Quality Prediction For Video Streaming In Urban Transport Systems,Q1,7,9.0
+2016,Betaas: A Platform For Development And Execution Of Machine-To-Machine Applications In The Internet Of Things,Q2,33,47.0
+2017,A Reinforcement Learning-Based Link Quality Estimation Strategy For Rpl And Its Impact On Topology Management,Q1,70,88.0
+2018,Pcocoa: A Precise Congestion Control Algorithm For Coap,Q1,49,57.0
+2018,D2D Communications For Large-Scale Fog Platforms: Enabling Direct M2M Interactions,Q1,17,20.0
+2018,Special Issue On Technical Challenges And Emerging Opportunities For 5G Enabled Iot Systems,Q1,0,0.0
+2018,Edge-Centric Distributed Discovery And Access In The Internet Of Things,Q1,67,83.0
+2019,Rapid Prototyping Of Iot Solutions: A Developer'S Perspective,Q1,13,19.0
+2019,Fog Computing For The Internet Of Things: A Survey,Q1,296,416.0
+2019,Container Migration In The Fog: A Performance Evaluation,,106,157.0
+2019,Energy-Efficient Iot Service Brokering With Quality Of Service Support,,9,14.0
+2020,Analysis Of The Interplay Between Rpl And The Congestion Control Strategies For Coap,Q1,15,15.0
+2020,Mobfogsim: Simulation Of Mobility And Migration For Fog Computing,Q1,114,176.0
+2021,Design And Evaluation Of A Fog Platform Supporting Device Mobility Through Container Migration,Q1,13,16.0
+2021,Application-Aware Resource Allocation And Data Management For Mec-Assisted Iot Service Providers,Q1,31,35.0
+2022,Server-Side Quic Connection Migration To Support Microservice Deployment At The Edge,Q1,23,25.0
+2022,Discriminating Quantum States In The Presence Of A Deutschian Ctc: A Simulation Analysis,Q1,0,0.0
+2022,Energy-Optimized Content Refreshing Of Age-Of-Information-Aware Edge Caches In Iot Systems,Q2,1,2.0
+2022,An Edge-Based Lwm2M Proxy For Device Management To Efficiently Support Qos-Aware Iot Services,,7,12.0
+2023,Balancing Local Vs. Remote State Allocation For Micro-Services In The Cloud–Edge Continuum,Q1,9,9.0
+2023,End-To-End Network Slicing In Vehicular Clouds Using The Mobfogsim Simulator,Q1,8,10.0
+2024,Characterizing Smartphone Capabilities For Seismic And Structural Monitoring,Q1,1,2.0
+2024,Service Continuity In Edge Computing Through Edge Proxies And Http Alternative Services,Q1,2,3.0
+2024,Redip: Ranked Entanglement Distribution Protocol For The Quantum Internet,Q1,3,6.0
+2024,Srv6-Based Edge Service Continuity In 5G Mobile Networks †,Q2,3,4.0
+2025,Age-Oriented Resource Allocation For Iot Computational Intensive Tasks In Edge Computing Systems,Q1,3,6.0

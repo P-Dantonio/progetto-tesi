@@ -1,0 +1,18 @@
+year,title,citations_scopus,citations_scholar
+2006,Identification Of Takagi-Sugeno Fuzzy Systems Based On Multi-Objective Genetic Algorithms,12,20
+2007,Modelling A Team Of Radiologists For Lung Nodule Detection In Ct Scans,1,2
+2012,A Decision Support Architecture For Maritime Operations Exploiting Multiple Metoc Centres And Uncertainty,6,11
+2015,Mspmea: The Microcones Separation Parallel Multiobjective Evolutionary Algorithm And Its Application To Fuzzy Rule-Based Ship Classification,4,4
+2020,Generalizing Pure And Impure Iterated Prisoner’S Dilemmas To The Case Of Infinite And Infinitesimal Quantities,6,8
+2020,A Fast Approximation Of The Hyperbolic Tangent When Using Posit Numbers And Its Application To Deep Neural Networks,17,28
+2020,Grossone Methodology For Lexicographic Mixed-Integer Linear Programming Problems,4,6
+2021,Handling Priority Levels In Mixed Pareto-Lexicographic Many-Objective Optimization Problems,6,10
+2022,Experimental Results Of Vectorized Posit-Based Dnns On A Real Arm Sve High Performance Computing Machine,1,2
+2022,Small Reals Representations For Deep Learning At The Edge: A Comparison,4,9
+2023,Decoding-Free Two-Input Arithmetic For Low-Precision Real Numbers,0,1
+2023,Design And Fpga Synthesis Of Ban Processing Unit For Non-Archimedean Number Crunching,3,6
+2023,Experiments On Speeding Up The Recursive Fast Fourier Transform By Using Avx-512 Simd Instructions,2,4
+2024,Speeding Up Non-Archimedean Numerical Computations Using Avx-512 Simd Instructions,0,1
+2024,Towards Formal Verification Of Neural Networks In Cyber-Physical Systems,5,7
+2025,Optimal Synthesis Of Multi-Output Boolean Functions Using Modern Ilp Solvers,0,0
+2025,Llama-2 Acceleration Using The Arm Scalable Vector Extension,0,1

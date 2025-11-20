@@ -1,0 +1,178 @@
+year,title,core_rank,citations_scopus,citations_scholar
+2004,A Novel Signaling Approach To Encompass Physical Impairments In Gmpls Networks,B,19,33
+2004,A Novel Signaling Approach To Encompass Physical Impairments In Gmpls Networks,B,19,33
+2004,Separate Wavelength Pools For Multiple-Class Optical Channel Provisioning,,8,12
+2004,A Novel Ospf Extension Including Node Architectural Constraints For Gmpls Networks,,1,4
+2005,Failure-Aware Idle Protection Capacity Reuse,B,4,6
+2005,Failure-Aware Idle Protection Capacity Reuse,B,4,6
+2005,Introducing Node Adaptation Capability Descriptor In Gmpls Multi-Region Networks,C,0,1
+2005,Physical Impairment Aware Signalling For Dynamic Lightpath Set Up,C,5,28
+2005,One-Bit All-Optical Memory,C,1,3
+2005,Impact Of Idle Protection Capacity Reuse On Multi-Class Optical Networks,,2,3
+2005,Impact Of Spare Capacity Reuse On Multi-Class Lightpath Survivability Differentiation,,2,2
+2005,An Optical Memory Cell Based On Erbium-Doped Fiber,,3,4
+2006,Gmpls Signaling Feedback For Encompassing Physical Impairments In Transparent Optical Networks,B,8,12
+2006,Gmpls Signaling Feedback For Encompassing Physical Impairments In Transparent Optical Networks,B,8,12
+2006,Increasing Restorability For Local-To-Egress Restoration In Gmpls Controlled Networks With Limited Wavelength Conversion,B,5,6
+2006,Signaling Protocol Extensions For Converter-Saving Wavelength Assignment In Gmpls Optical Networks,C,6,12
+2006,2×2 Photonic Node For All-Optical Packet Switching Networks,C,0,0
+2006,Wavelength-Converter Saving Span Restoration In Gmpls Controlled Wdm Optical Networks,,5,5
+2006,Research On Optical Core Networks In The E-Photon/One Network Of Excellence,,2,3
+2006,Enhancing Link Bundling Performance In Gmpls Transparent Networks,,0,0
+2006,Enhancing Link Bundling Performance In Gmpls Transparent Networks,,0,0
+2007,Span Restoration In Optical Networks With Limited Wavelength Conversion,B,1,4
+2007,Ultra-Fast All-Optical Interconnection Network Fully Based On Modular Integrable Photonic Digital Processing,,1,2
+2007,Lightweight Rsvp-Te Extensions To Account For Shared Regenerators In Translucent Optical Networks,,11,14
+2007,A Framework For Label Preference In Gmpls Controlled Optical Networks,,4,7
+2007,Photonics In Switching In Noe E-Photon/One+,,0,1
+2007,A Synchronous All-Optical 160 Gb/S Photonic Interconnection Network,,4,6
+2007,Multiple Path Computation Element (Pce) Cooperation For Multi-Layer Traffic Engineering,,21,29
+2007,All-Optical Ultra-Fast Packet Contention Detection Based On Soas For 2×2 Photonic Nodes,,1,1
+2007,Gmpls Extensions To Encompass Shared Regenerators In Transparent Optical Networks,,10,17
+2007,Multistage Interconnection Network Photonic Controller Exploiting A Cascaded Soa-Based Ultrafast Module,,7,9
+2007,A Synchronous All-Optical 160 Gb/S Photonic Interconnection Network,,0,6
+2007,Multiple Path Computation Element (Pce) Cooperation For Multi-Layer Traffic Engineering,,0,29
+2007,A Synchronous All-Optical 160 Gb/S Photonic Interconnection Network,,0,6
+2008,Wavelength Converter Placement In Optical Networks With Dynamic Traffic,,1,2
+2008,Bidirectional Lightpath Provisioning In Gmpls-Controlled Optical Networks,,3,3
+2008,Path Restoration Schemes In Gmpls-Controlled Translucent Networks,,3,7
+2008,Introducing Crosstalk-Awareness Into Gmpls-Controlled Transparent Optical Networks,,7,8
+2008,Reactive Re-Provisioning Heuristics For Mitigating The Impact Of Traffic Pattern Variations On Multi-Layer Optical Networks,,0,0
+2009,Multiple Path Based Regenerator Placement Algorithm In Translucent Optical Networks,B,4,6
+2009,Complexity Analysis And Performance Evaluation Of A Two-Step Scheduler For Modular Optical Packet Switches,C,1,2
+2009,Pmd Monitoring Using Optical Sideband Filtering,,4,3
+2009,Restoration In Gmpls-Based Wavelength Switched Optical Networks With Limited Wavelength Converters,,2,4
+2009,Prioritizing Connection Requests In Gmpls-Controlled Optical Networks,,0,1
+2009,All-Optical Cell Acknowledgment In Synchronous Optical Packet Switches,,0,0
+2009,Virtual Network Topology Manager (Vntm) And Path Computation Element (Pce) Cooperation In Multi-Layer Gmpls Networks,,4,9
+2009,Virtual Network Topology Manager (Vntm) And Path Computation Element (Pce) Cooperation In Multi-Layer Gmpls Networks,,1,9
+2009,Multi-Card Wavelength Scheduling In Modular Optical Packet Switches,,4,4
+2010,Shared Path Protection In Gmpls Networks With Limited Wavelength Conversion Capability,B,2,4
+2010,Analysis Of The Two-Step Scheduling Framework With Transfer Speedup Under Non-Uniform Traffic,B,0,0
+2010,Wavelengths And Regenerators Sharing In Gmpls-Controlled Wsons,B,3,6
+2010,Wavelengths And Regenerators Sharing In Gmpls-Controlled Wsons,B,3,6
+2010,Unbundling In Wdm-Pon Based On All-Optical Switching,B,0,0
+2010,Unbundling In Wdm-Pon Based On All-Optical Switching,B,0,0
+2010,Designated Pce Election Procedure For Traffic Engineering Database Creation In Gmpls Multi-Layer Networks,C,3,4
+2010,Pce-Based Vs. Distributed Set Up Of Bidirectional Lightpaths In Gmpls-Controlled Optical Networks,,0,8
+2010,Pce-Based Vs. Distributed Set Up Of Bidirectional Lightpaths In Gmpls-Controlled Optical Networks,,0,8
+2010,Multi-Plane Optical Interconnection For Energy-Proportional Network Architectures,,0,0
+2010,Constraining Queuing Delay In Wdm Rings Based On Multi-Token Access Protocol Under Asymmetrical Traffic,,0,0
+2010,Accounting For Pmd Temporal Correlation During Lightpath Set Up In Gmpls-Controlled Optical Networks,,0,0
+2010,Suggested Vector Scheme With Crankback Mechanism In Gmpls-Controlled Optical Networks,,7,8
+2010,Accounting For Pmd Temporal Correlation During Lightpath Set Up In Gmpls-Controlled Optical Networks,,0,0
+2010,Introducing Te Metrics To Account For Transponder And Grooming Resources In Gmpls Multi-Layer Networks,,0,4
+2010,Pce-Based Vs. Distributed Set Up Of Bidirectional Lightpaths In Gmpls-Controlled Optical Networks,,9,8
+2011,Signaling-Based Joint Selection Of Wavelengths And Regenerator Points In Gmpls-Controlled Wsons,B,1,2
+2011,Signaling-Based Joint Selection Of Wavelengths And Regenerator Points In Gmpls-Controlled Wsons,B,1,2
+2011,Energy-Efficient Switching In Optical Interconnection Networks,B,8,10
+2012,Heterogeneous Space Switches For Power-Efficient Optical Interconnection Networks,B,3,3
+2012,Current-Controlled Inp Monolithically Integrated Dpsk Demodulator,,0,3
+2012,All-Optical Monolithically Integrated Differential Xor,,0,4
+2012,Energy Efficiency And Scalability Of Multi-Plane Optical Interconnection Networks For Computing Platforms And Data Centers,,0,8
+2012,Physical Layer Scalability Of Energy-Efficient Heterogeneous Optical Space Switches,,0,0
+2012,All-Optical Monolithically Integrated Differential Xor,,3,4
+2012,Current-Controlled Inp Monolithically Integrated Dpsk Demodulator,,5,3
+2012,Energy Efficiency And Scalability Of Multi-Plane Optical Interconnection Networks For Computing Platforms And Data Centers,,7,8
+2013,Energy-Efficient Space-Time Optical Interconnection Architectures For Data Centers,B,1,1
+2013,A Novel Photonic Integrated Regenerator,C,0,2
+2013,A Monolithically Integrated All-Optical Wavelength Converter,,2,2
+2013,Rodin - Energy-Proportional Soa-Based Optical Interconnect For Large Computing Platforms,,1,1
+2013,Integrated Bidirectional Optical Amplifier For Crosstalk-Free Wdm Communication,,4,3
+2013,Modeling A Multi Microring (Mmr) Network-On-Chip,,1,0
+2013,A Novel Photonic Integrated Regenerator,,2,2
+2013,A Monolithically Integrated All-Optical Wavelength Converter,,0,2
+2014,Modeling Of Χ(2) In Strained Silicon Based On Crystal Symmetry,C,0,0
+2014,All-Optical Multi Microring Network-On-Chip,C,2,1
+2014,All-Optical Multi Microring Network-On-Chip,C,0,1
+2014,An Inp Monolithically Integrated Multi-Frequency Wavelength Converter,C,0,0
+2014,Gain Effect On The Scalability Of Soa-Based Optical Space Switches,C,1,3
+2014,Optics In Data Center: Improving Scalability And Energy Efficiency,C,0,0
+2014,Challenges And Progress Toward A Silicon-Based Multi-Microring Optical Network-On-Chip,C,3,5
+2014,An Inp Monolithically Integrated Multi-Frequency Wavelength Converter,,0,0
+2014,Gain Effect On The Scalability Of Soa-Based Optical Space Switches,,1,3
+2014,An Inp Monolithically Integrated Multi-Frequency Wavelength Converter,,0,0
+2014,All-Optical Regenerator Placement In Wson,,6,7
+2014,Gain Effect On The Scalability Of Soa-Based Optical Space Switches,,0,3
+2015,A Silicon Photonics Network-On-Chip Architecture Based On Mode And Wavelength Switching,C,5,6
+2015,Photonic Integrated Wavelength Converter Based On Double Stage Cross Gain Modulation In Soas,C,2,2
+2015,Demonstration Of A Photonic Integrated Network-On-Chip With Multi Microrings,C,5,6
+2015,Experimental Demonstration Of Bidirectional Transmissions In A Photonic Integrated Network On Chip With Bus Topology,,0,1
+2015,An Integrated And Pre-Amplified Demodulator For 56 Gb/S Wdm-Dpsk Signals,,1,1
+2015,Fast Scheduling Based On Iterative Parallel Wavelength Matching For A Multi-Wavelength Ring Network-On-Chip,,9,12
+2015,Photonic Integrated Wavelength Converter Based On Double Stage Cross Gain Modulation In Soas,,0,2
+2015,Demonstration Of A Photonic Integrated Network-On-Chip With Multi Microrings,,1,6
+2015,Ring Versus Bus: A Ber Comparison Of Photonic Integrated Networks-On-Chip,,5,9
+2016,Ring Versus Bus Topology: A Network Performance Comparison Of Photonic Integrated Noc,B,1,4
+2016,40 Db-Rejection Sharp-Edge Integrated Soi Phase-Shifted Bragg Grating Filter For Microwave Photonics,C,5,7
+2016,Characterization Of A Packaged Network On Chip Based On Multi-Microrings,C,1,1
+2016,An Inp Monolithically Integrated Multiwavelength Transmitter With Direct Modulation,,3,3
+2016,Hardware Implementation Of An Iterative Parallel Scheduler For Optical Interconnection Networks,,0,4
+2017,Simultaneous Data Transmissions On Engineered Closely Packed Silicon-On-Insulator Waveguide Arrays,B,1,1
+2017,Experimental Characterization Of The First Photonic Integrated Turbo-Switch Circuit,C,4,7
+2017,Demonstration Of A Packaged Photonic Integrated Network On Chip Controlled By An Fpga-Based Scheduler,,0,4
+2017,Bidirectional Transmissions In A Ring-Based Packaged Optical Noc With 12 Add-Drop Microrings,,6,6
+2017,8×25 Gbps Transmitter Based On Monolithically Inp Integrated Directly Modulated Tunable Dfb Lasers,,0,0
+2017,Silicon Photonic Multi-Microring Network On Chip,,0,0
+2017,Experimental Characterization Of The First Photonic Integrated Turbo-Switch Circuit,,0,7
+2017,Silicon Photonic Multi-Microring Network On Chip,,0,0
+2017,8×25 Gbps Transmitter Based On Monolithically Inp Integrated Directly Modulated Tunable Dfb Lasers,,0,0
+2017,Demonstration Of A Packaged Photonic Integrated Network On Chip Controlled By An Fpga-Based Scheduler,,0,4
+2018,The Orbital Angular Momentum Of Light For Ultra-High Capacity Data Centers,B,0,0
+2018,All-Optical Wavelength Conversion Of Pam-4 Signal Using Photonic Integrated Turbo-Switch,C,2,3
+2018,Flexible Transceivers And Solutions For Semi-Filterless Metro Networks,,1,2
+2018,Fpga-Controlled Multi-Microring Network On Chip In Silicon Photonic Platform,,0,0
+2018,Multiplane Orbital Angular Momentum And Wavelength Switch Based On Integrated Tunable Vortex Emitters,,4,4
+2018,Inp Photonic Integrated Comb Generator Made By A Cascade Of Optical Modulators,,1,4
+2018,Multiplane Orbital Angular Momentum And Wavelength Switch Based On Integrated Tunable Vortex Emitters,,0,4
+2018,Inp Photonic Integrated Comb Generator Made By A Cascade Of Optical Modulators,,1,4
+2019,Comb Line Multiplication In An Integrated Optical Frequency Comb Generator,,1,1
+2019,How To Establish A Sustainable Ecosystem For Photonic Integrated Circuits? What Are Major Hurdles To Overcome?,,0,0
+2019,56 Gb/S All-Optical Wavelength Conversion Based On A Photonic Integrated Turbo-Switch,,0,0
+2019,Hardware Comparison Of Schedulers For Modular Optical Interconnection Networks,,1,1
+2019,First Demonstration Of An Fpga-Controlled Multiplane Oam-Wavelength Packet Switch,,3,3
+2019,First Demonstration Of An Fpga-Controlled Multiplane Oam-Wavelength Packet Switch,,0,3
+2020,An Overview Of Hardware Acceleration Techniques For 5G Functions,B,3,9
+2021,A Silicon Nitride Reconfigurable Linear Optical Processor,,3,4
+2021,Rof/Fso System Based On A Monolithically Integrated Multi-Wavelength Transmitter,,2,3
+2021,A Codesigned Photonic Electronic Mac Neuron With Adc-Embedded Nonlinearity,,7,11
+2021,A Silicon Nitride Reconfigurable Linear Optical Processor,,0,4
+2021,Experimental Evaluation Of 5G Vran Function Implementation In An Accelerated Edge Cloud,,4,5
+2021,Photonic Integrated Neural Network Accelerators,,0,0
+2021,Silicon Photonic Filter-Based Dot Product Engine For Convolutional Neural Networks,,0,1
+2021,A Codesigned Photonic Electronic Mac Neuron With Adc-Embedded Nonlinearity,,0,11
+2022,5G Nr Support For Uav-Assisted Cellular Communication On Non-Terrestrial Network,B,3,3
+2022,Photonic-Aware Neural Networks For Packet Classification In Urllc Scenarios,B,1,1
+2022,5G Mm-Waves Generation Assisted By Integrated Optical Frequency Combs,,1,1
+2022,Photonic-Aware Neural Networks For Packet Classification In Beyond 5G Networks,,2,3
+2022,Leveraging Lithium Niobate On Insulator Technology For Photonic Analog Computing,,2,5
+2022,Integrated Optical Frequency Combs For Low-Phase Noise Mm-Waves Generation,,2,3
+2022,Integration Of Qkd Technologies In Advanced Optical Networks,,12,10
+2022,Photonic-Aware Neural Network: A Fixed-Point Emulation Of Photonic Hardware,,3,3
+2022,Accelerating Pooling Layers In Photonic Convolutional Neural Networks,,1,1
+2022,A Lithium Niobate On Insulator Based Photonic Neural Network,,1,3
+2022,Integrated Optical Frequency Combs For Low-Phase Noise Mm-Waves Generation,,0,3
+2023,Source Device Independent Quantum Random Number Generator With Integrated Inp Photonics,B,1,3
+2023,Validation Of Photonic Neural Networks In Health Scenarios,B,3,5
+2023,Graphene-Based Photonic-Electronic Multiply-Accumulate Neurons,B,0,1
+2023,Intra-Data Center Optical Identification,B,0,0
+2023,Multi-Dimensional Reconciliation Encoder With Quasi-Cyclic Ldpc Codes On Fpga,B,0,0
+2023,Impact Of Photonic Integration Platforms On The Performance Of Neuromorphic Accelerators,,0,0
+2023,Protecting Nextg Military Networks With Convolutional Neural Networks,,0,1
+2023,Neuromorphic Photonics For Digital Signal Processing,,2,2
+2023,Impact Of Photonic Integration Platforms On The Performance Of Neuromorphic Accelerators,,0,0
+2023,Photonic-Accelerated Ai For Cybersecurity In Sustainable 6G Networks,,0,1
+2024,Software-Defined Control Of Integrated Qkd And Classical Optical Networks,B,1,2
+2024,Quantum-Assisted Digital Signature: A New Service For Future Quantum-Integrated Optical Networks,B,1,2
+2024,A Programmable 5G Du-Ru Smartnic Based On Mpsoc Fpga,B,1,2
+2024,Enabling Lightweight Federated Learning In Nextg Wireless Networks,B,3,3
+2024,Efficient Distributed Learning Over Lossy Wireless Networks,,2,3
+2024,Resolution Limits In Optical Microring Modulators For Applications In Neuromorphic Photonics,,0,0
+2024,Lithium Niobate On Insulator Technology For Applications In The 1064 Nm Window,,2,2
+2024,Quantum-Assisted Digital Signature In An Sdn-Controlled Optical Network,,1,1
+2024,Activation Stretching For Tackling Noise In Photonic Aware Neural Networks,,1,3
+2024,Photonic Technologies For Analog Neuromorphic Computing,,2,3
+2024,Quantum-Assisted Digital Signature In An Sdn-Controlled Optical Network,,0,1
+2024,Activation Stretching For Tackling Noise In Photonic Aware Neural Networks,,1,3
+2024,5G New Radio Techniques For 3D Networks In Connection-Critical Scenarios,,0,1
+2025,Enabling Puf-Based Authentication In Qkd Networks,B,0,1

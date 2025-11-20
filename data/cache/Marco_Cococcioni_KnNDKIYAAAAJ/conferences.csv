@@ -1,0 +1,42 @@
+year,title,core_rank,citations_scopus,citations_scholar
+2002,Automatic Extraction Of Fuzzy Rules From Meris Data To Identify Sea Water Optically Active Constituent Concentration,C,1,3
+2002,A New Approach To Combining Outputs Of Multiple Classifiers,C,3,5
+2002,A Fuzzy Model For The Retrieval Of The Sea Water Optically Active Constituents Concentration From Meris Data,C,1,3
+2003,A System Based On Hierarchical Fuzzy Clustering For Web Users Profiling,C,2,7
+2003,An Artificial Olfactory System For Quality And Geographical Discrimination Of Olive Oils,,0,2
+2004,A Tsk Fuzzy Model For Combining Outputs Of Multiple Classifiers,C,11,12
+2006,A Comparison Of Multi-Objective Evolutionary Algorithms In Fuzzy Rule-Based Systems Generation,C,1,3
+2007,A New Multi-Objective Evolutionary Algorithm Based On Convex Hull For Binary Classifier Optimization,B,22,25
+2007,Evolutionary Multi-Objective Optimization Of Fuzzy Rule-Based Classifiers In The Roc Space,B,3,6
+2008,Complexity Reduction Of Mamdani Fuzzy Systems Through Multi-Valued Logic Minimization,C,22,26
+2008,A Machine Learning Approach To Fault Diagnosis Of Rolling Bearings,C,3,4
+2008,Fast Multiobjective Genetic Rule Learning Using An Efficient Method For Takagi-Sugeno Fuzzy Systems Identification,C,6,7
+2008,A Multi-Classifier System For Pulmonary Nodule Classification,,2,2
+2009,Bearing Condition Monitoring Using Classifier Fusion,C,1,2
+2009,Automatic Diagnosis Of Defects Of Rolling Element Bearings Based On Computational Intelligence Techniques,C,6,6
+2009,Rolling Element Bearing Fault Classification Using Soft Computing Techniques,C,16,17
+2009,Issues And Preliminary Results In Oil Spill Detection Using Optical Remotely Sensed Images,,8,12
+2010,Providing Prtools With Fuzzy Rule-Based Classifiers,A,5,7
+2010,Rolling Element Bearing Diagnosis Using Convex Hull,B,3,4
+2010,Building A Time Variant Cost-Oriented Classifier Using An Ensemble Of Svms On A Real Case Application,C,1,4
+2010,Oil Spill Classification From Multi-Spectral Satellite Images: Exploring Different Machine Learning Techniques,,11,17
+2010,Short-Time Forecasting Of Renewable Production Energy In Solar Photovoltaic Installations,National: bulgaria,4,7
+2010,Model Based Decision Support For Underwater Glider Operation Monitoring,,22,29
+2011,24-Hour-Ahead Forecasting Of Energy Production In Solar Pv Systems,C,85,106
+2011,Rapid Prototyping Of High Performance Fuzzy Computing Applications Using High Level Gpu Programming For Maritime Operations Support,,14,17
+2011,A Hybrid Continuity Preserving Inference Strategy To Speed Up Takagi-Sugeno Multiobjective Genetic Fuzzy Systems,,3,3
+2013,Sampling On-Demand With Fleets Of Underwater Gliders,,6,8
+2013,Making The Optimal Sampling Of The Ocean Simpler: An Automatic Tool For Planning Glider Missions Using Forecasts Downloaded From Myocean,,5,7
+2015,Adaptive Sampling Using Fleets Of Underwater Gliders In The Presence Of Fixed Buoys Using A Constrained Clustering Algorithm,,11,15
+2015,Multiobjective Evolutionary Optimization Of Quadratic Takagi-Sugeno Fuzzy Rules For Remote Bathymetry Estimation,,1,1
+2016,A Semi-Supervised Learning-Aided Evolutionary Approach To Occupational Safety Improvement,B,10,14
+2016,Towards Lexicographic Multi-Objective Linear Programming Using Grossone Methodology,,11,17
+2016,Solving The Environmental Economic Dispatch Problem With Prohibited Operating Zones In Microgrids Using Nsga-Ii And Topsis,Multiconference,1,3
+2018,Computational Intelligence In Maritime Security And Defense: Challenges And Opportunities,C,3,3
+2018,Exploiting Posit Arithmetic For Deep Neural Networks In Autonomous Driving Applications,,28,46
+2019,Novel Arithmetics To Accelerate Machine Learning Classifiers In Autonomous Driving Applications,,9,14
+2020,A Novel Posit-Based Fast Approximation Of Elu Activation Function For Deep Neural Networks,C,15,24
+2021,Faster Deep Neural Network Image Processing By Using Vectorized Posit Operations On A Risc-V Processor,,1,5
+2022,Photonic-Aware Neural Network: A Fixed-Point Emulation Of Photonic Hardware,,3,3
+2023,Training Neural Networks In Cyber-Physical Systems Using Design Space Exploration And Co-Simulation,A*,2,3
+2023,Dynamic Power Consumption Of The Full Posit Processing Unit: Analysis And Experiments,,1,2

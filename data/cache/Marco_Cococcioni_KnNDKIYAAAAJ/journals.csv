@@ -1,0 +1,47 @@
+year,title,scimago_quartile,citations_scopus,citations_scholar
+2004,Approaching The Ocean Color Problem Using Fuzzy Rules,Q1,11,29
+2007,Estimating The Concentration Of Optically Active Constituents Of Sea Water By Takagi-Sugeno Models With Quadratic Rule Consequents,Q1,12,16
+2007,A Pareto-Based Multi-Objective Evolutionary Approach To The Identification Of Mamdani Fuzzy Systems,Q2,103,146
+2008,Solving The Ocean Color Inverse Problem By Using Evolutionary Multi-Objective Optimization Of Neuro-Fuzzy Systems,Q3,9,14
+2011,On Reducing Computational Overhead In Multi-Objective Genetic Takagi-Sugeno Fuzzy Systems,Q1,35,43
+2011,Computer-Aided Detection Of Lung Nodules Based On Decision Fusion Techniques,Q2,12,20
+2011,S-Nnls: An Efficient Non-Negative Least Squares Algorithm For Sequential Data,Q2,1,3
+2011,Approaching Bathymetry Estimation From High Resolution Multispectral Satellite Images Using A Neuro-Fuzzy Technique,Q2,21,26
+2012,Svme: An Ensemble Of Support Vector Machines For Detecting Oil Spills From Full Resolution Modis Images,Q2,28,37
+2012,A Maritime Decision Support System To Assess Risk In The Presence Of Environmental Uncertainties: The Rep10 Experiment,Q2,12,17
+2012,One Day-Ahead Forecasting Of Energy Production In Solar Photovoltaic Installations: An Empirical Study,Q3,20,28
+2013,Robust Diagnosis Of Rolling Element Bearings Based On Classification Techniques,Q1,73,93
+2013,A Decision Support System For Optimal Deployment Of Sonobuoy Networks Based On Sea Current Forecasts And Multi-Objective Evolutionary Optimization,Q1,17,22
+2016,Mission Planning And Decision Support For Underwater Glider Networks: A Sampling On-Demand Approach,Q1,29,35
+2018,Lexicographic Multi-Objective Linear Programming Using Grossone Methodology: Theory And Algorithm,Q1,82,123
+2018,Numerical Asymptotic Results In Game Theory Using Sergeyev’S Infinity Computing,Q3,28,39
+2019,Photonic Neural Networks: A Survey,Q1,137,169
+2020,Solving Mixed Pareto-Lexicographic Multi-Objective Optimization Problems: The Case Of Priority Chains,Q1,30,45
+2020,Solving The Lexicographic Multi-Objective Mixed-Integer Linear Programming Problem Using Branch-And-Bound And Grossone Methodology,Q1,55,72
+2020,Fast Deep Neural Networks For Image Processing Using Posits And Arm Scalable Vector Extension,Q2,19,34
+2020,Fast Approximations Of Activation Functions In Deep Neural Networks When Using Posit Arithmetic,,29,42
+2021,Non-Archimedean Game Theory: A Numerical Approach,Q1,17,27
+2021,Solving Mixed Pareto-Lexicographic Multiobjective Optimization Problems: The Case Of Priority Levels,Q1,17,28
+2021,Vectorizing Posit Operations On Risc-V For Faster Deep Neural Networks: Experiments And Comparison With Arm Sve,Q1,15,21
+2021,Photonic Integrated Reconfigurable Linear Processors As Neural Network Accelerators,Q1,32,37
+2021,Novel Arithmetics In Deep Neural Networks Signal Processing For Autonomous Driving: Challenges And Opportunities,Q1,33,52
+2021,Game Theory For Unmanned Vehicle Path Planning In The Marine Domain: State Of The Art And New Possibilities,Q2,9,12
+2021,The Big-M Method With The Numerical Infinite M,Q2,62,126
+2021,Non-Archimedean Zero-Sum Games,Q2,11,20
+2021,The Algorithmic Numbers In Non-Archimedean Numerical Computing Environments,Q2,8,9
+2022,A Lightweight Posit Processing Unit For Risc-V Processors In Deep Neural Network Applications,Q1,28,50
+2022,Photonic-Aware Neural Networks,Q1,35,38
+2022,A Toolbox For Measuring Heterogeneity And Efficiency Using Zonotopes,Q1,1,1
+2022,A Non-Archimedean Interior Point Method And Its Application To The Lexicographic Multi-Objective Quadratic Programming,Q2,5,9
+2022,Non-Standard Analysis Revisited: An Easy Axiomatic Presentation Oriented Towards Numerical Applications,Q2,6,8
+2023,Charles: A C++ Fixed-Point Library For Photonic-Aware Neural Networks,Q1,3,3
+2023,Modelling Heavy Tailed Phenomena Using A Lognormal Distribution Having A Numerically Verifiable Infinite Variance,Q2,4,4
+2023,Pure And Mixed Lexicographic-Paretian Many-Objective Optimization: State Of The Art,Q3,9,12
+2024,Neural Networks In Closed-Loop Systems: Verification Using Interval Arithmetic And Formal Prover,Q1,3,5
+2024,Residual Stress Determination With The Hole-Drilling Method On Fdm 3D-Printed Precurved Specimen Through Digital Image Correlation,Q1,7,9
+2024,A New Cutting Plane Method For Lexicographic Multi-Objective Integer Linear Programming,Q1,4,5
+2024,Regularization Of Hole-Drilling Residual Stress Measurements With Eccentric Holes: An Approach With Influence Functions,Q2,2,2
+2025,Quantitative Delay Analysis Of Gi/G/1 Queues With Heavy-Tailed Traffic By Means Of Alpha Theory,Q1,0,0
+2025,"Linear Programming With Infinite, Finite, And Infinitesimal Values In The Right-Hand Side",Q1,1,1
+2025,Extending The Applicability Of The Pollaczek- Khinchin Formula To The Case Of Infinite Service Moments,Q1,1,2
+2025,Differentiable Neural Architecture Search For Photonic-Aware Neural Networks,Q4,0,0

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard Ricercatori</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=3">
+</head>
+<body>
+    <div class="container">
+        <h1>Pannello ricerca dati 🔍</h1>
+        
+        <p class="header-row">Inserisci nome, cognome e id Google Scholar (max. 5)</p>
+        
+        <div id="researcherInputs">
+            <div class="input-group">
+                <label>Nome:</label> <input type="text" id="firstName1">
+                <label>Cognome:</label> <input type="text" id="lastName1">
+                <label>ID Scholar:</label> <input type="text" id="scholarId1">
+            </div>
+            <div class="input-group">
+                <label>Nome:</label> <input type="text" id="firstName2">
+                <label>Cognome:</label> <input type="text" id="lastName2">
+                <label>ID Scholar:</label> <input type="text" id="scholarId2">
+            </div>
+            <div class="input-group">
+                <label>Nome:</label> <input type="text" id="firstName3">
+                <label>Cognome:</label> <input type="text" id="lastName3">
+                <label>ID Scholar:</label> <input type="text" id="scholarId3">
+            </div>
+            <div class="input-group">
+                <label>Nome:</label> <input type="text" id="firstName4">
+                <label>Cognome:</label> <input type="text" id="lastName4">
+                <label>ID Scholar:</label> <input type="text" id="scholarId4">
+            </div>
+            <div class="input-group">
+                <label>Nome:</label> <input type="text" id="firstName5">
+                <label>Cognome:</label> <input type="text" id="lastName5">
+                <label>ID Scholar:</label> <input type="text" id="scholarId5">
+            </div>
+        </div>
+        
+        <button type="button" id="startButton">Avvia Elaborazione</button>
+        
+        <h2>Stato dei risultati</h2>
+        <table id="resultsTable">
+            <thead>
+                <tr>
+                    <th>Nome Ricercatore</th>
+                    <th>Dettagli</th>
+                    <th>Stato</th>
+                    <th>Download</th>
+                </tr>
+            </thead>
+            <tbody id="resultsTableBody">
+                </tbody>
+        </table>
+    </div>
+
+    <div id="scopusModal" class="modal-overlay" style="display: none;">
+        <div class="modal-content">
+            <h3>Seleziona l'autore Scopus corretto</h3>
+            <p>Abbiamo trovato più corrispondenze. Scegli quella giusta:</p>
+            
+            <div id="modalList" class="modal-list"></div>
+            
+            <div class="modal-footer">
+                <button id="confirmBtn" class="btn-confirm">Conferma Selezione</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='dashboard.js') }}?v=3"></script>
+</body>
+</html>

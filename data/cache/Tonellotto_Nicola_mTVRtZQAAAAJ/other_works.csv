@@ -1,0 +1,107 @@
+title,year,citations_scopus,citations_scholar,venue,doi,core_rank,scimago_quartile,sjr_score,type,source_type,source
+Preface,2026.0,0.0,0.0,Lecture Notes in Computer Science,,N/A,N/A,"0,118",Book Series,ed,Scopus
+Query Performance Prediction Using Dimension Importance Estimators,2025.0,0.0,0.0,Lecture Notes in Computer Science,10.1007/978-3-031-88711-6_13,N/A,N/A,"0,118",Book Series,cp,Scopus + Scholar
+Exploring The Effectiveness Of Multi-Stage Fine-Tuning For Cross-Encoder Re-Rankers,2025.0,1.0,0.0,Lecture Notes in Computer Science,10.1007/978-3-031-88714-7_45,N/A,N/A,"0,118",Book Series,cp,Scopus
+Preface,2025.0,0.0,0.0,Lecture Notes in Computer Science,,N/A,N/A,"0,118",Book Series,ed,Scopus
+Preface,2025.0,0.0,0.0,Lecture Notes in Computer Science,,N/A,N/A,"0,118",Book Series,ed,Scopus
+Preface,2025.0,0.0,0.0,Lecture Notes in Computer Science,,N/A,N/A,"0,118",Book Series,ed,Scopus
+Efficient Constant-Space Multi-Vector Retrieval,2025.0,1.0,6.0,Lecture Notes in Computer Science,10.1007/978-3-031-88714-7_22,N/A,N/A,"0,118",Book Series,cp,Scopus + Scholar
+Enhancing Reproducibility And Replicability In Information Retrieval: A Path Towards Scientific Integrity And Effective Research,2025.0,0.0,2.0,Lecture Notes in Computer Science,10.1007/978-3-031-88720-8_42,N/A,N/A,"0,118",Book Series,cp,Scopus + Scholar
+Preface,2025.0,0.0,0.0,Lecture Notes in Computer Science,,N/A,N/A,"0,118",Book Series,ed,Scopus
+Maybe You Are Looking For Croqs Cross-Modal Query Suggestion For Text-To-Image Retrieval,2025.0,0.0,0.0,Lecture Notes in Computer Science,10.1007/978-3-031-88711-6_9,N/A,N/A,"0,118",Book Series,cp,Scopus + Scholar
+Preface,2025.0,0.0,0.0,Lecture Notes in Computer Science,,N/A,N/A,"0,118",Book Series,ed,Scopus
+Murr: Model Updating With Regularized Replay For Searching A Document Stream,2025.0,0.0,0.0,Lecture Notes in Computer Science,10.1007/978-3-031-88708-6_6,N/A,N/A,"0,118",Book Series,cp,Scopus
+Projection-Displacement-Based Query Performance Prediction For Embedded Space Of Dense Retrievers,2025.0,0.0,0.0,"ACM Transactions on Information Systems 44 (1), 1-30, 2025",,N/A,Q1,"1,540",,,Scholar
+Getting Off The Dime: Dimension Pruning Via Dimension Importance Estimation For Dense Information Retrieval,2025.0,0.0,0.0,"ACM Transactions on Information Systems 44 (1), 1-34, 2025",,N/A,Q1,"1,540",,,Scholar
+Amaqa: A Metadata-Based Qa Dataset For Rag Systems,2025.0,0.0,0.0,"arXiv preprint arXiv:2505.13557, 2025",,N/A,N/A,,,,Scholar
+Early-Exit Graph Neural Networks,2025.0,0.0,1.0,"arXiv preprint arXiv:2505.18088, 2025",,N/A,N/A,,,,Scholar
+Document Quality Scoring For Web Crawling,2025.0,0.0,2.0,"arXiv preprint arXiv:2504.11011, 2025",,N/A,N/A,,,,Scholar
+Enhancing Reproducibility And Replicability In Information,2025.0,0.0,0.0,"Web Engineering: 25th International Conference, ICWE 2025, Delft, The …, 2025",,N/A,N/A,,,,Scholar
+Blending Learning To Rank And Dense Representations For Efficient And Effective Cascades,2025.0,0.0,0.0,"arXiv preprint arXiv:2510.16393, 2025",,N/A,N/A,,,,Scholar
+"Advances In Information Retrieval: 47Th European Conference On Information Retrieval, Ecir 2025, Lucca, Italy, April 6–10, 2025, Proceedings, Part I",2025.0,0.0,0.0,"Springer Nature, 2025",,N/A,N/A,,,,Scholar
+Murr: Model Updating With Regularized Replay For Searching A Document Stream,2025.0,0.0,0.0,"European Conference on Information Retrieval, 85-100, 2025",,A,N/A,,,,Scholar
+Exploring The Effectiveness Of Multi-Stage Fine-Tuning For Cross-Encoder Re-Rankers,2025.0,0.0,1.0,"European Conference on Information Retrieval, 455-462, 2025",,A,N/A,,,,Scholar
+Formal Representation Of Geospatial Knowledge In Narratives,2025.0,0.0,0.0,,,N/A,N/A,,,,Scholar
+Desire-Me: Domain-Enhanced Supervised Information Retrieval Using Mixture-Of-Experts,2024.0,7.0,10.0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-031-56060-6_8,N/A,Q2,"0,352",Book Series,cp,Scopus + Scholar
+Preface,2024.0,0.0,0.0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,,N/A,Q2,"0,352",Book Series,ed,Scopus
+Preface,2024.0,0.0,0.0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,,N/A,Q2,"0,352",Book Series,ed,Scopus
+Indxr: A Python Library For Indexing File Lines,2024.0,1.0,2.0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-031-56069-9_27,N/A,Q2,"0,352",Book Series,cp,Scopus + Scholar
+Preface,2024.0,0.0,0.0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,,N/A,Q2,"0,352",Book Series,ed,Scopus
+Neural Information Retrieval,2024.0,0.0,2.0,"Information Retrieval: Advanced Topics and Techniques, 11-48, 2024",,N/A,N/A,,,,Scholar
+Report On The 13Th Italian Information Retrieval Workshop (Iir 2023),2024.0,0.0,0.0,"ACM SIGIR Forum 57 (2), 1-12, 2024",,N/A,N/A,,,,Scholar
+"Advances In Information Retrieval: 46Th European Conference On Information Retrieval, Ecir 2024, Glasgow, Uk, March 24–28, 2024, Proceedings, Part I",2024.0,0.0,6.0,"Springer Nature, 2024",,N/A,N/A,,,,Scholar
+Generating Query Recommendations Via Llms,2024.0,0.0,9.0,"arXiv preprint arXiv:2405.19749, 2024",,N/A,N/A,,,,Scholar
+Graph Neural Re-Ranking Via Corpus Graph,2024.0,0.0,3.0,"arXiv preprint arXiv:2406.11720, 2024",,N/A,N/A,,,,Scholar
+A Tale Of Trust And Accuracy: Base Vs. Instruct Llms In Rag Systems,2024.0,0.0,2.0,"arXiv preprint arXiv:2406.14972, 2024",,N/A,N/A,,,,Scholar
+Caching Historical Embeddings In Conversation Search,2024.0,0.0,0.0,"US Patent App. 18/770,275, 2024",,N/A,N/A,,,,Scholar
+A Theoretical Analysis Of Recommendation Loss Functions Under Negative Sampling,2024.0,0.0,4.0,"arXiv preprint arXiv:2411.07770, 2024",,N/A,N/A,,,,Scholar
+"Two-Step Splade: Simple, Efficient And Effective Approximation Of Splade",2024.0,2.0,4.0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-031-56060-6_23,N/A,Q2,"0,352",Book Series,cp,Scopus + Scholar
+Static Pruning In Dense Retrieval Using Matrix Decomposition,2024.0,0.0,1.0,"arXiv preprint arXiv:2412.09983, 2024",,N/A,N/A,,,,Scholar
+Preface,2024.0,0.0,0.0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,,N/A,Q2,"0,352",Book Series,ed,Scopus
+Preface,2024.0,0.0,0.0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,,N/A,Q2,"0,352",Book Series,ed,Scopus
+Preface,2024.0,0.0,0.0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,,N/A,Q2,"0,352",Book Series,ed,Scopus
+Cache Optimization Via Topics In Web Search Engines,2023.0,0.0,0.0,"US Patent 11,693,885, 2023",,N/A,N/A,,,,Scholar
+Pseudo-Relevance Feedback In The Era Of Dense Retrieval.,2022.0,0.0,0.0,"IIR, 2022",,N/A,N/A,,,,Scholar
+A Dependency-Aware Utterances Permutation Strategy To Improve Conversational Evaluation,2022.0,4.0,0.0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-030-99736-6_13,N/A,Q2,"0,352",Book Series,cp,Scopus + Scholar
+Lecture Notes On Neural Information Retrieval,2022.0,0.0,15.0,"arXiv preprint arXiv:2207.13443, 2022",,N/A,N/A,,,,Scholar
+A Comprehensive Dataset For Modern Learning To Rank Solutions,2022.0,0.0,0.0,"IIR, 2022",,N/A,N/A,,,,Scholar
+"Method To Rank Documents By A Computer, Using Additive Ensembles Of Regression Trees And Cache Optimisation, And Search Engine Using Such A Method",2021.0,0.0,1.0,,,N/A,N/A,,,,Scholar
+Ir From Bag-Of-Words To Bert And Beyond Through Practical Experiments,2021.0,0.0,8.0,"Proceedings of the 30th ACM International Conference on Information …, 2021",,B,N/A,"0,125",,,Scholar
+Cache Optimization Via Topics In Web Search Engines,2021.0,0.0,8.0,"US Patent 11,151,167, 2021",,N/A,N/A,,,,Scholar
+Cache Optimization Via Topics In Web Search Engines,2021.0,0.0,0.0,,,N/A,N/A,,,,Scholar
+Leveraging Cloud Infrastructures For Teaching Advanced Computer Engineering Classes: Experiences At The University Of Pisa,2021.0,1.0,0.0,Communications in Computer and Information Science,10.1007/978-3-030-67435-9_20,A,Q4,"0,182",Book Series,cp,Scopus + Scholar
+A Cloud-Based Approach For Teaching Cloud Computing And Distributed Database,2020.0,0.0,0.0,"HELMeTO-International Workshop on Higher Education Learning Methodologies …, 2020",,N/A,N/A,,,,Scholar
+The Internet Of Ships,2020.0,0.0,5.0,"ERCIM NEWS, 17-18, 2020",,N/A,N/A,,,,Scholar
+Cache Optimization Via Topics In Web Search Engines,2019.0,0.0,8.0,"US Patent 10,503,792, 2019",,N/A,N/A,,,,Scholar
+Parallel Traversal Of Large Ensembles Of Decision Tree,2018.0,0.0,0.0,"IEEE Transactions on Parallel and Distributed Systems, 2018",,N/A,Q1,"2,097",,,Scholar
+Proceedings Of The 9Th Italian Information Retrieval Workshop,2018.0,0.0,0.0,"CEUR-WS. org, 2018",,N/A,N/A,,,,Scholar
+Popularity-Based Caching Of Cms Datasets,2018.0,0.0,2.0,Advances in Parallel Computing,10.3233/978-1-61499-843-3-221,C,Q4,"0,139",Book Series,ar,Scopus + Scholar
+Quickscorer: Efficient Traversal Of Large Ensembles Of Decision Trees,2017.0,6.0,14.0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-319-71273-4_36,N/A,Q2,"0,352",Book Series,cp,Scopus + Scholar
+Fast Traversal Of Large Ensembles Of Regression Trees,2016.0,0.0,1.0,"ERCIM NEWS 107, 28-29, 2016",,N/A,N/A,,,,Scholar
+Design And Implementation Of An Its Station To Bridge Automotive And Iot Systems,2015.0,0.0,0.0,,,N/A,N/A,,,,Scholar
+Entity Linking On Philosophical Documents.,2015.0,0.0,1.0,"IIR, 2015",,N/A,N/A,,,,Scholar
+Towards Green Information Retrieval: Studying The Suitability Of Queueing Theory In Reducing Power Consumption,2014.0,0.0,1.0,,,N/A,N/A,,,,Scholar
+Hybrid Query Scheduling For A Replicated Search Engine,2013.0,8.0,20.0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-642-36973-5_37,N/A,Q2,"0,352",Book Series,cp,Scopus + Scholar
+On Cloud-Based Multisource Reliable Multicast Transport In Broadband Multimedia Satellite Networks,2013.0,0.0,0.0,Lecture Notes of the Institute for Computer Sciences Social Informatics and Telecommunications Engineering,10.1007/978-3-642-36787-8_19,N/A,Q4,"0,158",Book Series,cp,Scopus + Scholar
+Query Processing In Highly-Loaded Search Engines,2013.0,1.0,7.0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-319-02432-5_9,N/A,Q2,"0,352",Book Series,cp,Scopus + Scholar
+Performance Evaluation Of Spdy Over High Latency Satellite Channels,2013.0,19.0,31.0,Lecture Notes of the Institute for Computer Sciences Social Informatics and Telecommunications Engineering Lnicst,10.1007/978-3-319-02762-3_11,N/A,Q4,"0,158",Book Series,ar,Scopus + Scholar
+C++: Esercizi Di Programmazione Sulle Classi,2012.0,0.0,0.0,,,N/A,N/A,,,,Scholar
+Parallelization Strategies For Distributed Non Negative Matrix Factorization,2012.0,0.0,0.0,"Proceedings of the International Conference on Data Science (ICDATA), 1, 2012",,N/A,N/A,"0,235",,,Scholar
+Adaptive Instantiation Of Service Workflows Using A Chemical Approach,2011.0,2.0,12.0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-642-21878-1_31,N/A,Q2,"0,352",Book Series,cp,Scopus + Scholar
+On Upper Bounds For Dynamic Pruning,2011.0,1.0,3.0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-642-23318-0_29,N/A,Q2,"0,352",Book Series,cp,Scopus + Scholar
+Representing Document Lengths With Identifiers,2011.0,0.0,0.0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-642-20161-5_66,N/A,Q2,"0,352",Book Series,cp,Scopus + Scholar
+C++: Esercizi Di Programmazione Sulle Classi: Anno Accademico 2010-2011,2010.0,0.0,0.0,"Azienda regionale per il diritto allo studio universitario, 2010",,N/A,N/A,,,,Scholar
+Advances In Information Retrieval,2009.0,0.0,2.0,"31th European conference on ir research, ECIR 2009, Toulouse, France, April …, 2009",,N/A,N/A,,,,Scholar
+A Chemical Metaphor To Model Service Selection For Composition Of Services,2009.0,0.0,4.0,"WPABA 9, 11-20, 2009",,N/A,N/A,,,,Scholar
+A New Approach On Network Resources Management In Grids,2008.0,0.0,0.0,"Achievements in European Research on Grid Systems: CoreGRID Integration …, 2008",,N/A,N/A,,,,Scholar
+D. Nfcf. 03-Methodology To Derive Performance Models For Component And Composite Components,2008.0,0.0,0.0,,,N/A,N/A,,,,Scholar
+D. Nfcf. 04-Nfcf Prototype And Early Documentation,2008.0,0.0,1.0,,,N/A,N/A,,,,Scholar
+Managing User Expectations With Component Performance Contracts,2008.0,0.0,1.0,"Grid Middleware and Services: Challenges and Solutions, 375-385, 2008",,N/A,N/A,,,,Scholar
+Component Performance Modeling And Scheduling Strategies On Grids.,2008.0,0.0,0.0,"Dortmund University of Technology, 2008",,N/A,N/A,,,,Scholar
+Proceedings Of The Programming Model Institute Technical Meeting 2008,2008.0,0.0,0.0,,,N/A,N/A,,,,Scholar
+Execution Support Of High Performance Heterogeneous Component-Based Applications On The Grid,2007.0,1.0,0.0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-540-72337-0_16,N/A,Q2,"0,352",Book Series,cp,Scopus + Scholar
+Cyberinfrastructure,2007.0,0.0,0.0,,,N/A,N/A,,,,Scholar
+D. Nfcf. 01-Non Functional Component Subsystem Architectural Design,2007.0,0.0,0.0,,,N/A,N/A,,,,Scholar
+Gcm: Grid Component Model-Reference Implementation With Autonomic Features (Non Functional Component Subsystem Architectural Design),2007.0,0.0,0.0,"Dipartimento di Informatica, Università di Pisa, 2007",,N/A,N/A,,,,Scholar
+A New Approach On Network Resources Management In Grids,2007.0,0.0,0.0,"Achievements in European Research on Grid Systems, 97-108, 2007",,N/A,N/A,,,,Scholar
+Hpc Application Execution On Grids,2006.0,0.0,1.0,"Future Generation Grids, CoreGRID series, 263-282, 2006",,N/A,N/A,,,,Scholar
+A Study On Network Resource Management,2006.0,0.0,0.0,"Integrated Research on Grid Computing, 213-224, 2006",,N/A,N/A,,,,Scholar
+High Level Grid Programming With Assist,2006.0,0.0,26.0,"CMST 12 (1), 21-32, 2006",,N/A,N/A,,,,Scholar
+Characterization Of The Performance Of Assist Programs,2005.0,0.0,6.0,"Technical Report TR-0007, CoreGRID-Network of Excellence, 2005",,N/A,N/A,,,,Scholar
+Hpc Application Execution On Grids,2005.0,0.0,7.0,"FUTURE GENERATION COMPUTER SYSTEMS, 2005",,N/A,Q1,"1,551",,,Scholar
+Using Web Services To Run Distributed Numerical Applications,2004.0,10.0,20.0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-540-30218-6_32,N/A,Q2,"0,352",Book Series,ar,Scopus + Scholar
+A Tool To Execute Assist Applications On Globus-Based Grids,2004.0,0.0,0.0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-540-24669-5_139,N/A,Q2,"0,352",Book Series,cp,Scopus + Scholar
+Analysis Of Component-Oriented Frameworks,2004.0,0.0,0.0,,,N/A,N/A,,,,Scholar
+Using Web Services,2004.0,0.0,0.0,"Recent Advances in Parallel Virtual Machine and Message Passing Interface …, 2004",,N/A,N/A,,,,Scholar
+A Peer-To-Peer Information Service For The Grid,2004.0,0.0,13.0,"Proc. of International Conference on Broadband Networks, San Jose, CA, USA, 2004",,N/A,N/A,"0,349",,,Scholar
+Hpc Application Execution On Grids,2004.0,0.0,14.0,"Future Generation Grids: Proceedings of the Workshop on Future Generation …, 2004",,N/A,N/A,,,,Scholar
+String Processing And Information Retrieval,0.0,0.0,0.0,,,N/A,N/A,,,,Scholar
+Energy-Efficient Function Invocation Scheduling For Sustainable Edge Faas,0.0,0.0,0.0,,,N/A,N/A,,,,Scholar
+"The Clef-2023 Checkthat! Lab: Checkworthiness, Subjectivity, Political Bias, Factuality, And Authority",0.0,0.0,0.0,"Advances in Information Retrieval: 45th European Conference on Information …, 0",,A,N/A,,,,Scholar
+Advances In Information Retrieval,0.0,0.0,0.0,,,N/A,N/A,,,,Scholar
+Context Propagation In Conversational Search Utterances,0.0,0.0,0.0,,,N/A,N/A,,,,Scholar
+"T1 Advanced Architectures Modelling Asynchronous Systems Using Probability Distribution Functions _ 3 Jose Manuel Colmenar, Noelia Morón, Oscar Garnica, Juan Lanchares, And …",0.0,0.0,0.0,,,N/A,N/A,,,,Scholar
+Topical Enrichment Of Conversational Search Utterances,0.0,0.0,0.0,,,N/A,N/A,,,,Scholar
+Energy Efficiency In Online Data Intensive Systems,0.0,0.0,0.0,,,N/A,N/A,,,,Scholar
+Supplemental Material For Tkde-2016-06-0526,0.0,0.0,0.0,,,N/A,N/A,,,,Scholar
+Parallelizing The Traversal Of Large Ensembles Of Decision Trees,0.0,0.0,0.0,,,N/A,N/A,,,,Scholar

@@ -1,0 +1,4 @@
+title,year,citations_scopus,citations_scholar,venue,doi,core_rank,scimago_quartile,sjr_score,type,source_type,source
+"Isospeed: Improving (Min,+) Convolution By Exploiting (Min,+)/(Max,+) Isomorphism",2023.0,0.0,3.0,Leibniz International Proceedings in Informatics Lipics,10.4230/LIPIcs.ECRTS.2023.12,N/A,N/A,"0,616",Conference Proceeding,cp,Scopus + Scholar
+The Road Towards Predictable Automotive High - Performance Platforms,2021.0,20.0,23.0,Proceedings Design Automation and Test in Europe Date,10.23919/DATE51398.2021.9473996,B,N/A,"0,480",Conference Proceeding,cp,Scopus + Scholar
+Heterogeneous Systems Modelling With Adaptive Traffic Profiles And Its Application To Worst-Case Analysis Of A Dram Controller,2020.0,5.0,7.0,Proceedings 2020 IEEE 44th Annual Computers Software and Applications Conference Compsac 2020,10.1109/COMPSAC48688.2020.00020,N/A,N/A,"0,225",Conference Proceeding,cp,Scopus + Scholar

@@ -1,0 +1,89 @@
+year,title,scimago_quartile,citations_scopus,citations_scholar
+2006,Challenges And Requirements For Introducing Impairment-Awareness Into The Management And Control Planes Of Ason/Gmpls Wdm Networks,Q1,124,162
+2006,Label Preference Schemes In Gmpls Controlled Networks,Q1,24,40
+2006,Impact Of Node Switching Capabilities On The Performance Of Wavelength Routed Networks,Q2,6,8
+2007,Photonic Combinatorial Network For Contention Management In 160 Gb/S-Interconnection Networks Based On All-Optical 2 × 2 Switching Elements,Q1,35,40
+2007,Idle Protection Capacity Reuse In Multiclass Optical Networks,Q1,9,10
+2008,Enhancing Gmpls Signaling Protocol For Encompassing Quality Of Transmission (Qot) In All-Optical Networks,Q1,60,73
+2008,"Photonics In Switching: Architectures, Systems And Enabling Technologies",Q1,21,29
+2008,Restoration In All-Optical Gmpls Networks With Limited Wavelength Conversion,Q1,11,18
+2008,Distributing Shared Regenerator Information In Gmpls-Controlled Translucent Networks,Q1,10,11
+2008,Nodal Stub-Release In All-Optical Networks,Q1,5,10
+2008,Multi-Class Lightpath Provisioning Based On Separate Wavelength Pools,Q3,0,0
+2009,Accounting For Shared Regenerators In Gmpls-Controlled Translucent Optical Networks,Q1,20,27
+2009,Gmpls-Controlled Dynamic Translucent Optical Networks,Q1,28,39
+2009,Photonics In Switching: Enabling Technologies And Subsystem Design,Q1,21,44
+2009,Label Preference Schemes For Lightpath Provisioning And Restoration In Distributed Gmpls Networks,Q1,39,49
+2009,Gmpls-Based Packet Contention Resolution In Connection-Oriented Ops Networks,Q1,2,1
+2009,All-Optical Packet-Switched Interconnection Network Based On Modular Photonic Digital Processing,Q2,4,6
+2010,Accounting For Pmd Temporal Correlation During Lightpath Set Up In Transparent Optical Networks,Q1,1,2
+2010,Path State-Based Update Of Pce Traffic Engineering Database In Wavelength Switched Optical Networks,Q1,38,42
+2010,Two-Step Scheduling Framework For Space-Wavelength Modular Optical Interconnection Networks,Q2,19,21
+2011,Energy-Efficient Design Of A Scalable Optical Multiplane Interconnection Architecture,Q1,70,89
+2011,A Scalable Space-Time Multi-Plane Optical Interconnection Network Using Energy-Efficient Enabling Technologies [Invited],Q2,35,46
+2012,Multifunctional Current-Controlled Inp Photonic Integrated Delay Interferometer,Q2,13,15
+2012,Distributed Sharing Of Functionalities And Resources In Survivable Gmpls-Controlled Wsons,Q2,2,5
+2012,Power And Scalability Analysis Of Multi-Plane Optical Interconnection Networks,Q3,15,13
+2013,Analysis And Design Of Microring-Based Switching Elements In A Silicon Photonic Integrated Transponder Aggregator,Q1,25,36
+2013,A Wavelength-Preserving Photonic Integrated Regenerator For Nrz And Rz Signals,Q1,20,17
+2013,Heterogeneous Optical Space Switches For Scalable And Energy-Efficient Data Centers,Q1,13,18
+2013,Designing Energy-Efficient Data Center Networks Using Space-Time Optical Interconnection Architectures,Q1,22,29
+2013,Monolithically Integrated All-Optical Regenerator For Constant Envelope Wdm Signals,Q1,14,18
+2013,An Inp Monolithically Integrated Unicast And Multicast Wavelength Converter,Q2,28,30
+2013,Bidirectional Crosstalk And Back-Reflection Free Wdm Active Optical Interconnects,Q2,9,8
+2014,Silicon-Based All-Optical Multi Microring Network-On-Chip,Q1,25,27
+2014,Genetic Approach For Optimizing The Placement Of All-Optical Regenerators In Wson,Q2,9,15
+2014,Gain Effect On Scalable Energy-Proportional Soa-Based Optical Space Switches,Q2,6,5
+2015,Ring Versus Bus: A Theoretical And Experimental Comparison Of Photonic Integrated Noc,Q1,21,24
+2015,Integrated Reconfigurable Coherent Transmitter Driven By Binary Signals,Q1,6,6
+2015,Ber Evaluation Of A Low-Crosstalk Silicon Integrated Multi-Microring Network-On-Chip,Q1,32,34
+2015,Inp Monolithically Integrated Coherent Transmitter,Q1,15,19
+2015,High-Speed Inp-Integrated Pre-Amplified Demodulator For Wdm-Dpsk Signals,Q2,5,9
+2015,A 40 Gb/S Inp-Monolithically Integrated Dpsk-Demodulator Enhanced By Cross-Gain-Compression In An Soa,Q2,2,6
+2016,Bidirectional Transmission In An Optical Network On Chip With Bus And Ring Topologies,Q2,18,19
+2016,Preamplified Demodulation Of 56-Gb/S Wdm-Dpsk Signals By An Awg-Based Inp Pic,Q2,2,4
+2017,Experimental Demonstration Of A 24-Port Packaged Multi-Microring Network-On-Chip In Silicon Photonic Platform,Q1,18,19
+2017,A Silicon Microring Optical 2 × 2 Switch Exploiting Orbital Angular Momentum For Interconnection Networks Up To 20 Gbaud,Q1,17,19
+2017,Simulation And Fpga-Based Implementation Of Iterative Parallel Schedulers For Optical Interconnection Networks,Q2,17,19
+2017,Engineering Of Closely Packed Silicon-On-Isolator Waveguide Arrays For Mode Division Multiplexing Applications,Q2,13,16
+2018,Photonic Integrated Fully Tunable Comb Generator Cascading Optical Modulators,Q1,31,37
+2018,Dynamic Switching Of A Packaged Photonic Integrated Network-On-Chip Using An Fpga Controller,Q1,2,2
+2018,A Directly Modulated Multiwavelength Transmitter Monolithically Integrated On Inp,Q1,17,20
+2018,Scheduling In Multi-Wavelength Ring-Based Optical Networks-On-Chip,Q2,8,9
+2019,Comb Line Multiplication In An Inp Integrated Photonic Circuit Based On Cascaded Modulators,Q1,20,25
+2019,On-Chip All-Optical Wavelength Conversion Of Pam-4 Signals Using An Integrated Soa-Based Turbo-Switch Circuit,Q1,15,17
+2019,Demonstration Of A Multiplane Oam-Wavelength Packet Switch Controlled By A Two-Step Scheduler Implemented In Fpgas,Q1,3,3
+2019,Photonic Neural Networks: A Survey,Q1,137,169
+2019,Crosstalk And Ber Performance Of Closely-Spaced Silicon-On-Insulator Waveguide Arrays,Q2,3,3
+2019,All-Optical Wavelength Conversion In An Inp Photonic Integrated Turbo-Switch,Q2,1,2
+2020,Inp Monolithically Integrated Transmitters Based On High Speed Directly Modulated Dfb Lasers,Q1,12,18
+2021,Photonic Integrated Reconfigurable Linear Processors As Neural Network Accelerators,Q1,32,37
+2021,Non-Standalone 5G Nr Fiwi System Based On A Photonic Integrated Multi-Wavelength Transmitter,Q1,3,5
+2021,5G Nr Rof System Based On A Monolithically Integrated Multi-Wavelength Transmitter,Q1,17,24
+2021,Tensile Strained Germanium Microstructures: A Comprehensive Analysis Of Thermo-Opto-Mechanical Properties,Q2,5,6
+2021,Fpga-Based Implementation Of Two-Step Schedulers For Modular Optical Interconnection Networks,Q2,6,6
+2021,100 Gb/S (4×28 Gb/S) Transmission In C-Band By A Directly Modulated Integrated Transmitter And Dsp-Free Coherent Detection,Q2,1,2
+2022,Integrated Optical Frequency Comb For 5G Nr Xhauls,Q1,19,24
+2022,Photonic-Aware Neural Networks,Q1,35,38
+2022,Fpga-Accelerated Smartnic For Supporting 5G Virtualized Radio Access Network,Q1,13,20
+2022,A Codesigned Integrated Photonic Electronic Neuron,Q2,22,27
+2022,Low-Phase-Noise Tenfold Frequency Multiplication Based On Integrated Optical Frequency Combs,Q2,5,7
+2022,Optical Networks Management And Control: A Review And Recent Challenges,Q2,40,51
+2023,Swarm Of Lightsail Nanosatellites For Solar System Exploration,Q1,4,6
+2023,Analysis Of Integration Technologies For High-Speed Analog Neuromorphic Photonics,Q1,12,14
+2023,Charles: A C++ Fixed-Point Library For Photonic-Aware Neural Networks,Q1,3,3
+2023,Real-Time Clustering Based On Deep Embeddings For Threat Detection In 6G Networks,Q1,18,19
+2023,Fading-Free 5G New Radio Mm-Waves Generation Using Photonic Integrated Frequency Combs,Q1,2,2
+2023,Integrating Qkd And Classical Optical Networks: An Sdn Control Approach,-,0,4
+2024,Silicon Integrated Photonic-Electronic Neuron For Noise-Resilient Deep Learning,Q1,4,4
+2024,Real-Time Network Packet Classification Exploiting Computer Vision Architectures,Q1,13,17
+2024,Introduction To The Globecom 2023 Optical Networks And Systems Symposium Special Issue,Q2,0,0
+2024,Fpga-Based Acceleration Of Qc-Ldpc Syndrome Encoding For Qkd Systems,Q4,0,0
+2025,Addressing Optical Modulator Non-Linearities For Photonic Neural Networks,Q1,2,4
+2025,Generalized Quantum-Assisted Digital Signature Service In An Sdn-Controlled Quantum-Integrated Optical Network,Q2,2,4
+2025,Thin-Film Lithium Niobate At 1064 Nm For Telecommunications And Sensing,Q4,0,0
+2025,Device-Informed Training Strategy For Low-Precision Photonic Neural Networks,Q4,0,0
+2025,Mitigating Noise Effects In Photonic Neural Networks Using Adaptive Quantization,Q4,0,0
+2025,Assessing The Robustness Of In-Switch Neural Networks Against Adversarial Ddos Attacks,Q4,0,0
+2025,Differentiable Neural Architecture Search For Photonic-Aware Neural Networks,Q4,0,0
+2025,Design Of An Efficient Thin Film Lithium Niobate Modulator At 1064 Nm,Q4,0,0
