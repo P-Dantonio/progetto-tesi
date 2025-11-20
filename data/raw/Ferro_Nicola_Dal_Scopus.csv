@@ -1,0 +1,362 @@
+title,year,citations_scopus,venue_scopus,doi,document_type,source_type
+A Robustness Assessment of Query Performance Prediction (QPP) Methods Based on Risk-Sensitive Analysis,2025,0,Ictir 2025 Proceedings of the 2025 International ACM SIGIR Conference on Innovative Concepts and Theories in Information Retrieval,10.1145/3731120.3744611,Conference Proceeding,cp
+Demographically-Inspired Query Variants Using an LLM,2025,0,Ictir 2025 Proceedings of the 2025 International ACM SIGIR Conference on Innovative Concepts and Theories in Information Retrieval,10.1145/3731120.3744608,Conference Proceeding,cp
+ACM SIGIR 2025 Chairs’ Welcome,2025,0,SIGIR 2025 Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval,,Conference Proceeding,ed
+CoDIME: A Counterfactual Approach for Dimension Importance Estimation through Click Logs,2025,1,SIGIR 2025 Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval,10.1145/3726302.3729926,Conference Proceeding,cp
+KIMERA: From Evaluation-as-a-Service to Evaluation-in-the-Cloud,2025,3,SIGIR 2025 Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval,10.1145/3726302.3730298,Conference Proceeding,cp
+A Comparative Study of Large Language Models and Traditional Privacy Measures to Evaluate Query Obfuscation Approaches,2025,1,SIGIR 2025 Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval,10.1145/3726302.3730158,Conference Proceeding,cp
+CoSRec: A Joint Conversational Search and Recommendation Dataset,2025,1,SIGIR 2025 Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval,10.1145/3726302.3730319,Conference Proceeding,cp
+Evaluating Multi-Dimensional Cumulated Utility in Information Retrieval,2025,1,SIGIR 2025 Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval,10.1145/3726302.3730191,Conference Proceeding,cp
+Report from the 4th Strategic Workshop on Information Retrieval in Lorne (SWIRL 2025),2025,0,Annals of the Entomological Society of America,10.1145/3769733.3769739,Journal,ar
+Report on the 2nd Workshop on Query Performance Prediction and its Applications in the Era of Large Language Models (QPP++ 2025) at ECIR 2025,2025,0,Annals of the Entomological Society of America,10.1145/3769733.3769743,Journal,ar
+Overview of GutBrainIE@CLEF 2025: Gut-Brain Interplay Information Extraction,2025,14,Ceur Workshop Proceedings,,Conference Proceeding,cp
+QuantumCLEF 2025: Overview of the Second Quantum Computing Challenge for Information Retrieval and Recommender Systems at CLEF,2025,5,Ceur Workshop Proceedings,,Conference Proceeding,cp
+SARD at LongEval: Longitudinal Evaluation of IR Systems by Using Query Rewriting and Hybrid Queries,2025,1,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Team 3DS2A at LongEval: Performance Evaluation over Time of IR Systems with Proximity Search and Reranking Components,2025,1,Ceur Workshop Proceedings,,Conference Proceeding,cp
+SEUPD@CLEF: Team BASETTE at LongEval: IR System for Basic Hardware,2025,1,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Team RAND at LongEval: Composable Information Retrieval with Semantic and Language-Aware Components,2025,1,Ceur Workshop Proceedings,,Conference Proceeding,cp
+SEUPD@CLEF Team RISE at LongEval: Improving Search by Crafting Titles and Matching URLs,2025,1,Ceur Workshop Proceedings,,Conference Proceeding,cp
+SEUPD2425-RACOON at LongEval: A Novel Approach To Information Retrieval With LLM-Based Query Expansion And Temporal Relevance Feedback Techniques,2025,1,Ceur Workshop Proceedings,,Conference Proceeding,cp
+DataHunter at LongEval: Temporal Stability Analysis of Boolean and CamemBERT-Based Retrieval Systems,2025,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+The KIMERA Infrastructure: Shifting from Evaluation-as-a-Service to Evaluation-in-the-Cloud,2025,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Counterfactual Dimension Importance Estimation (CoDIME) for Dense Information Retrieval,2025,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+A Dataset for Joint Conversational Search and Recommendation,2025,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+MDCU: A Multi-Dimensional Cumulative Utility Metric for Information Retrieval,2025,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Comparing LLMs and Traditional Privacy Measures to Evaluate Query Obfuscation Approaches,2025,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Conversational Information Retrieval and Recommender Systems,2025,1,Lecture Notes in Computer Science,10.1007/978-3-031-88720-8_44,Book Series,cp
+Query Performance Prediction Using Dimension Importance Estimators,2025,0,Lecture Notes in Computer Science,10.1007/978-3-031-88711-6_13,Book Series,cp
+A Reproducibility Study for Joint Information Retrieval and Recommendation in Product Search,2025,2,Lecture Notes in Computer Science,10.1007/978-3-031-88717-8_10,Book Series,cp
+QPP++ 2025: Query Performance Prediction and Its Applications in the Era of Large Language Models,2025,4,Lecture Notes in Computer Science,10.1007/978-3-031-88720-8_49,Book Series,cp
+QuantumCLEF 2025 - The Second Edition of the Quantum Computing Lab at CLEF,2025,4,Lecture Notes in Computer Science,10.1007/978-3-031-88720-8_66,Book Series,cp
+BioASQ at CLEF2025: The Thirteenth Edition of the Large-Scale Biomedical Semantic Indexing and Question Answering Challenge,2025,9,Lecture Notes in Computer Science,10.1007/978-3-031-88720-8_61,Book Series,cp
+Measuring Actual Privacy of Obfuscated Queries in Information Retrieval,2025,2,Lecture Notes in Computer Science,10.1007/978-3-031-88708-6_4,Book Series,cp
+An extensible and unifying approach to retrospective clinical data modeling: the BrainTeaser Ontology,2024,1,Journal of Biomedical Semantics,10.1186/s13326-024-00317-y,Journal,ar
+PREFACE,2024,0,Advances in Computational Science and Engineering,10.3934/acse.2024021,Journal,ed
+pyPANTERA: A Python PAckage for Natural language obfuscaTion Enforcing pRivacy & Anonymization,2024,6,International Conference on Information and Knowledge Management Proceedings,10.1145/3627673.3679173,Conference Proceeding,cp
+RecSys 2024 Chairs’ Welcome,2024,0,Recsys 2024 Proceedings of the 18th ACM Conference on Recommender Systems,,Conference Proceeding,ed
+A Quantum Annealing Instance Selection Approach for Efficient and Effective Transformer Fine-Tuning,2024,10,Ictir 2024 Proceedings of the 2024 ACM SIGIR International Conference on the Theory of Information Retrieval,10.1145/3664190.3672515,Conference Proceeding,cp
+Uncontextualized significance considered dangerous,2024,2,SIGIR 2024 Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval,10.1145/3626772.3657827,Conference Proceeding,cp
+Using and Evaluating Quantum Computing for Information Retrieval and Recommender Systems,2024,4,SIGIR 2024 Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval,10.1145/3626772.3661378,Conference Proceeding,cp
+Dimension Importance Estimation for Dense Information Retrieval,2024,7,SIGIR 2024 Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval,10.1145/3626772.3657691,Conference Proceeding,cp
+A Quantum Annealing-Based Instance Selection Approach for Transformer Fine-Tuning,2024,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+The CAMEO Project: A Holistic View for Conversational Agents Discussion Paper,2024,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Turning on a DIME: Estimating Dimension Importance for Dense Information Retrieval★ Extended Abstract,2024,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Beyond the Parameters: Measuring Actual Privacy in Obfuscated Texts,2024,1,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Improving RAG Systems via Sentence Clustering and Reordering,2024,1,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Preface,2024,0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,,Book Series,ed
+What Happened in CLEF… For Another While?,2024,0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-031-71736-9_1,Book Series,cp
+"PNRRorienta: A Web Application for Managing Schools, Courses, and Students Involved in the PNRR Orientation Initiative",2024,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+CAMEO: Fostering Joint Conversational Search and Recommendation,2024,2,Ceur Workshop Proceedings,,Conference Proceeding,cp
+"“Dead or Alive, we can deny it”. A Differentially Private Approach to Survival Analysis",2024,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Intelligent Disease Progression Prediction: Overview of iDPP@CLEF 2024,2024,8,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-031-71908-0_6,Book Series,cp
+SEUPD@CLEF: Team DAM on Reranking Using Sentence Embedders,2024,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Preface,2024,0,Ceur Workshop Proceedings,,Conference Proceeding,ed
+SEUPD@CLEF: Team IRIS on Temporal Evolution of Query Expansion and Rank Fusion Techniques Applied to Cross-Encoder Re-Rankers,2024,1,Ceur Workshop Proceedings,,Conference Proceeding,cp
+SEUPD@CLEF: Team Kalu on improving Search Engine Performance with Query Expansion and Re-Ranking Approach,2024,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+SEUPD@CLEF: Team Axolotl on Rumor Verification using Evidence from Authorities,2024,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+QuantumCLEF 2024: Overview of the Quantum Computing Challenge for Information Retrieval and Recommender Systems at CLEF,2024,7,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Overview of iDPP@CLEF 2024: The Intelligent Disease Progression Prediction Challenge,2024,1,Ceur Workshop Proceedings,,Conference Proceeding,cp
+SEUPD@CLEF: Team MOUSE on Enhancing Search Engines Effectiveness with Large Language Models,2024,1,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Overview of QuantumCLEF 2024: The Quantum Computing Challenge for Information Retrieval and Recommender Systems at CLEF,2024,14,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-031-71908-0_12,Book Series,cp
+Query Obfuscation for Information Retrieval Through Differential Privacy,2024,9,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-031-56027-9_17,Book Series,cp
+iDPP@CLEF 2024: The Intelligent Disease Progression Prediction Challenge,2024,0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-031-56072-9_7,Book Series,cp
+QuantumCLEF - Quantum Computing at CLEF,2024,9,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-031-56069-9_66,Book Series,cp
+The CLEF 2024 Monster Track: One Lab to Rule Them All,2024,2,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-031-56072-9_2,Book Series,cp
+Quantum Computing for Information Retrieval and Recommender Systems,2024,8,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-031-56069-9_47,Book Series,cp
+Evaluating Differential Privacy Approaches for Query Obfuscation in Information Retrieval,2024,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+How Discriminative Are Your Qrels? How To Study the Statistical Significance of Document Adjudication Methods,2023,2,International Conference on Information and Knowledge Management Proceedings,10.1145/3583780.3614916,Conference Proceeding,cp
+"On the Ordering of Pooled Web Pages, Gold Assessments, and Bronze Assessments",2023,1,ACM Transactions on Information Systems,10.1145/3600227,Journal,ar
+Towards Query Performance Prediction for Neural Information Retrieval: Challenges and Opportunities,2023,14,Ictir 2023 Proceedings of the 2023 ACM SIGIR International Conference on the Theory of Information Retrieval,10.1145/3578337.3605142,Conference Proceeding,cp
+A Geometric Framework for Query Performance Prediction in Conversational Search,2023,19,SIGIR 2023 Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval,10.1145/3539618.3591625,Conference Proceeding,cp
+DECAF: A Modular and Extensible Conversational Search Framework,2023,7,SIGIR 2023 Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval,10.1145/3539618.3591913,Conference Proceeding,cp
+Shared Tasks as Tutorials: A Methodical Approach,2023,4,Proceedings of the 37th Aaai Conference on Artificial Intelligence Aaai 2023,10.1609/aaai.v37i13.26877,Conference Proceeding,cp
+An in-depth investigation on the behavior of measures to quantify reproducibility,2023,9,Information Processing and Management,10.1016/j.ipm.2023.103332,Journal,ar
+Manual and automatic identification of ACMG evidence in scientific papers,2023,0,Convegno Nazionale Di Bioingegneria,,Conference Proceeding,cp
+SEUPD@CLEF: Team GWCA on Longitudinal Evaluation of IR Systems by Using Query Expansion and Learning To Rank,2023,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+SEUPD@CLEF: Team FADERIC on A Query Expansion and Reranking Approach for the Longeval Task,2023,3,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Preface,2023,0,Ceur Workshop Proceedings,,Conference Proceeding,ed
+SEUPD@CLEF: Team QEVALS on Information Retrieval Adapted to the Temporal Evolution of Web Documents,2023,1,Ceur Workshop Proceedings,,Conference Proceeding,cp
+SEUPD@CLEF: Team HIBALL on Incremental Information Retrieval System with RRF and BERT,2023,2,Ceur Workshop Proceedings,,Conference Proceeding,cp
+SEUPD@CLEF: RAFJAM on Longitudinal Evaluation of Model Performance,2023,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+SEUPD@CLEF: Team DARDS - IR System for Short and Long Term Retrieval,2023,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+SEUPD@CLEF: Team NEON. A Memoryless Approach To Longitudinal Evaluation,2023,1,Ceur Workshop Proceedings,,Conference Proceeding,cp
+SEUPD@CLEF: Team CLOSE on Temporal Persistence of IR Systems’ Performance,2023,2,Ceur Workshop Proceedings,,Conference Proceeding,cp
+"SEUPD@CLEF: Team JIHUMING on Enhancing Search Engine Performance with Character N-Grams, Query Expansion, and Named Entity Recognition",2023,1,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Overview of iDPP@CLEF 2023: The Intelligent Disease Progression Prediction Challenge,2023,16,Ceur Workshop Proceedings,,Conference Proceeding,cp
+SEUPD@CLEF: Team Squid on LongEval-Retrieval,2023,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Preface of the 31st Italian Symposium on Advanced Database Systems,2023,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+On the Limitations of Query Performance Prediction for Neural IR: Discussion paper,2023,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+A Modular Framework for Conversational Search Reproducible Experimentation: Discussion Paper,2023,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+DAVI: A Dataset for Automatic Variant Interpretation,2023,1,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-031-42448-9_8,Book Series,cp
+Preface,2023,0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,,Book Series,ed
+Intelligent Disease Progression Prediction: Overview of iDPP@CLEF 2023,2023,14,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-031-42448-9_24,Book Series,cp
+qCLEF: A Proposal to Evaluate Quantum Annealing for Information Retrieval and Recommender Systems,2023,14,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-031-42448-9_9,Book Series,cp
+IR Systems Evaluation via Generalized Linear Models,2023,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+A Spatial Approach to Predict Performance of Conversational Search Systems,2023,3,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Preface,2023,0,Ceur Workshop Proceedings,,Conference Proceeding,ed
+SKET: an Unsupervised Knowledge Extraction Tool to Empower Digital Pathology Applications,2023,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Query Performance Prediction for Neural IR: Are We There Yet?,2023,16,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-031-28244-7_15,Book Series,cp
+QPP++ 2023: Query-Performance Prediction and Its Evaluation in New Tasks,2023,5,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-031-28241-6_42,Book Series,cp
+iDPP@CLEF 2023: The Intelligent Disease Progression Prediction Challenge,2023,5,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-031-28241-6_57,Book Series,cp
+Detecting Significant Differences Between Information Retrieval Systems via Generalized Linear Models,2022,3,International Conference on Information and Knowledge Management Proceedings,10.1145/3511808.3557286,Conference Proceeding,cp
+Towards Feature Selection for Ranking and Classification Exploiting Quantum Annealers,2022,39,SIGIR 2022 Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval,10.1145/3477495.3531755,Conference Proceeding,cp
+sMARE: a new paradigm to evaluate and understand query performance prediction methods,2022,21,Information Retrieval Journal,10.1007/s10791-022-09407-w,Journal,ar
+Evaluating the integration of datasets,2022,1,Proceedings of the ACM Symposium on Applied Computing,10.1145/3477314.3507688,Conference Proceeding,cp
+How do you test a test? A multifaceted examination of significance tests,2022,16,Wsdm 2022 Proceedings of the 15th ACM International Conference on Web Search and Data Mining,10.1145/3488560.3498406,Conference Proceeding,cp
+Preface,2022,0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,,Book Series,ed
+Intelligent Disease Progression Prediction: Overview of iDPP@CLEF 2022,2022,10,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-031-13643-6_25,Book Series,cp
+Preface,2022,0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,,Book Series,ed
+Extracting a Unified Database from Heterogeneous Bills of Materials via Data Integration Approaches,2022,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Improving Conversational Evaluation via a Dependency-Aware Permutation Strategy,2022,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+SEUPD@CLEF: Team hextech on Argument Retrieval for Comparative Questions. The importance of adjectives in documents quality evaluation,2022,1,Ceur Workshop Proceedings,,Conference Proceeding,cp
+SEUPD@CLEF: Team INTSEG on Argument Retrieval for Controversial Questions,2022,2,Ceur Workshop Proceedings,,Conference Proceeding,cp
+SEUPD@CLEF: Team Gamora on Argument Retrieval for Controversial Questions,2022,1,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Aldo Nadi at Touché 2022: Argument Retrieval for Comparative Questions,2022,2,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Overview of iDPP@CLEF 2022: The Intelligent Disease Progression Prediction Challenge,2022,11,Ceur Workshop Proceedings,,Conference Proceeding,cp
+SEUPD@CLEF: Team Lgtm on Argument Retrieval for Controversial Questions,2022,1,Ceur Workshop Proceedings,,Conference Proceeding,cp
+SEUPD@CLEF: Team 6musk on Argument Retrieval for Controversial Questions by Using Pairs Selection and Query Expansion,2022,1,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Preface,2022,0,Ceur Workshop Proceedings,,Conference Proceeding,ed
+Feature Selection via Quantum Annealers for Ranking and Classification Tasks,2022,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Comparing ANOVA Approaches to Detect Significantly Different IR Systems,2022,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+A Dependency-Aware Utterances Permutation Strategy to Improve Conversational Evaluation,2022,4,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-030-99736-6_13,Book Series,cp
+Topic Difficulty: Collection and Query Formulation Effects,2022,27,ACM Transactions on Information Systems,10.1145/3470563,Journal,ar
+Hierarchical Dependence-aware Evaluation Measures for Conversational Search,2021,12,SIGIR 2021 Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval,10.1145/3404835.3463090,Conference Proceeding,cp
+Estimation of hail damage using crop models and remote sensing,2021,19,Remote Sensing,10.3390/rs13142655,Journal,ar
+A machine learning-based approach for advanced monitoring of automated equipment for the entertainment industry,2021,8,2021 IEEE International Workshop on Metrology for Industry 4 0 and Iot Metroind 4 0 and Iot 2021 Proceedings,10.1109/MetroInd4.0IoT51437.2021.9488481,Conference Proceeding,cp
+"Influence of tillage and crop rotations in organic and conventional farming systems on soil organic matter, bulk density and enzymatic activities in a short-term field experiment",2021,26,Agronomy,10.3390/agronomy11040724,Journal,ar
+sMARE: An enhanced query performance prediction evaluation approach,2021,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+A data management and anomaly detection solution for the entertainment industry,2021,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Towards Meaningful Statements in IR Evaluation: Mapping Evaluation Measures to Interval Scales,2021,17,IEEE Access,10.1109/ACCESS.2021.3116857,Journal,ar
+Preface,2021,0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,,Book Series,ed
+Do hard topics exist? A statistical analysis,2021,1,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Preface,2021,0,Ceur Workshop Proceedings,,Conference Proceeding,ed
+Preface,2021,0,Ceur Workshop Proceedings,,Conference Proceeding,ed
+System Effect Estimation by Sharding: A Comparison Between ANOVA Approaches to Detect Significant Differences,2021,13,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-030-72240-1_3,Book Series,cp
+An Enhanced Evaluation Framework for Query Performance Prediction,2021,32,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-030-72113-8_8,Book Series,cp
+repro_eval: A Python Interface to Reproducibility Measures of System-Oriented IR Experiments,2021,14,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-030-72240-1_51,Book Series,cp
+s-AWARE: Using crowd judgements in supervised measure-based methods for IR evaluation,2021,1,Ceur Workshop Proceedings,,Conference Proceeding,cp
+FullBrain: A social E-learning platform,2021,4,Ceur Workshop Proceedings,,Conference Proceeding,cp
+NoBis: A crowd monitoring service against COVID-19,2021,2,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Boosting learning to rank with user dynamics and continuation methods,2020,2,Information Retrieval Journal,10.1007/s10791-019-09366-9,Journal,ar
+Unsupervised Evaluation of Data Integration Processes,2020,2,ACM International Conference Proceeding Series,10.1145/3428757.3429129,Conference Proceeding,cp
+Exploiting Stopping Time to Evaluate Accumulated Relevance,2020,3,Ictir 2020 Proceedings of the 2020 ACM SIGIR International Conference on Theory of Information Retrieval,10.1145/3409256.3409832,Conference Proceeding,cp
+How to Measure the Reproducibility of System-oriented IR Experiments,2020,27,SIGIR 2020 Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval,10.1145/3397271.3401036,Conference Proceeding,cp
+How do interval scales help us with better understanding IR evaluation measures?,2020,11,Information Retrieval Journal,10.1007/s10791-019-09362-z,Journal,ar
+Preface,2020,0,Ceur Workshop Proceedings,,Conference Proceeding,ed
+Preface,2020,0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,,Book Series,ed
+s-AWARE: Supervised Measure-Based Methods for Crowd-Assessors Combination,2020,2,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-030-58219-7_2,Book Series,cp
+Improving Learning to Rank by Leveraging User Dynamics and Continuation Methods,2020,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Preface,2020,0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,,Book Series,ed
+Preface,2020,0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,,Book Series,ed
+Reproducibility of the Neural Vector Space Model via Docker,2020,0,Communications in Computer and Information Science,10.1007/978-3-030-39905-4_1,Book Series,cp
+Improving the accuracy of system performance estimation by using shards,2019,13,SIGIR 2019 Proceedings of the 42nd International ACM SIGIR Conference on Research and Development in Information Retrieval,10.1145/3331184.3338062,Conference Proceeding,cp
+The SIGIR 2019 open-source IR replicability challenge (OSIRRC 2019),2019,22,SIGIR 2019 Proceedings of the 42nd International ACM SIGIR Conference on Research and Development in Information Retrieval,10.1145/3331184.3331647,Conference Proceeding,cp
+Using collection shards to study retrieval performance effect sizes,2019,23,ACM Transactions on Information Systems,10.1145/3310364,Journal,ar
+A General Theory of IR Evaluation Measures,2019,20,IEEE Transactions on Knowledge and Data Engineering,10.1109/TKDE.2018.2840708,Journal,ar
+What Happened in CLEF ... For a While?,2019,4,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-030-28577-7_1,Book Series,cp
+Preface,2019,0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,,Book Series,ed
+Scales of evaluation measures: From theory to experimentation,2019,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Overview of CENTRE@CLEF 2019: Sequel in the Systematic Reproducibility Realm,2019,11,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-030-28577-7_24,Book Series,cp
+A docker-based replicability study of a neural information retrieval model,2019,3,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Overview of the 2019 open-source IR replicability challenge (OSIRRC 2019),2019,7,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Preface,2019,1,Ceur Workshop Proceedings,,Conference Proceeding,ed
+Centre@clef2019: Overview of the replicability and reproducibility tasks,2019,1,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Preface,2019,0,Ceur Workshop Proceedings,,Conference Proceeding,ed
+A formal theory to determine scale properties of evaluation measures,2019,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Centre@clef 2019,2019,7,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-030-15719-7_38,Book Series,cp
+A markovian approach to evaluate session-based IR systems,2019,3,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-030-15712-8_40,Book Series,cp
+Stochastic relevance for crowdsourcing,2019,0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-030-15712-8_50,Book Series,cp
+CLAIRE: A combinatorial visual analytics system for information retrieval evaluation,2018,14,Information Processing and Management,10.1016/j.ipm.2018.04.006,Journal,ar
+Continuation methods and curriculum learning for learning to rank,2018,9,International Conference on Information and Knowledge Management Proceedings,10.1145/3269206.3269239,Conference Proceeding,cp
+Introduction to the special issue on reproducibility in information retrieval: Tools and infrastructures,2018,6,Journal of Data and Information Quality,10.1145/3268410,Journal,re
+"Introduction to the special issue on reproducibility in information retrieval: Evaluation campaigns, collections, and analyses",2018,7,Journal of Data and Information Quality,10.1145/3268408,Journal,re
+Evaluation of Conformance Checkers for Long-Term Preservation of Multimedia Documents,2018,4,Proceedings of the ACM IEEE Joint Conference on Digital Libraries,10.1145/3197026.3197037,Conference Proceeding,cp
+Toward an anatomy of IR system component performances,2018,34,Journal of the Association for Information Science and Technology,10.1002/asi.23910,Journal,ar
+Overview of the TREC 2018 CENTRE Track,2018,5,27th Text Retrieval Conference Trec 2018 Proceedings,,Conference Proceeding,cp
+Overview of CENTRE@CLEF 2018: A first tale in the systematic reproducibility realm,2018,18,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-319-98932-7_23,Book Series,cp
+Preface,2018,0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,,Book Series,ed
+Graph Databases Benchmarking on the Italian Business Register,2018,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+How to Robustly Combine Judgements from Crowd Assessors with AWARE,2018,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Digital libraries: From digital resources to challenges in scientific data sharing and re-use,2018,5,Studies in Big Data,10.1007/978-3-319-61893-7_2,Book Series,ar
+Preface,2018,0,Ceur Workshop Proceedings,,Conference Proceeding,ed
+CENTRE@CLEF2018: Overview of the replicability task,2018,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+The CLAIRE visual analytics system for analysing IR evaluation data,2018,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+How topic and system size affect the correlation among evaluation measures,2018,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Modelling randomness in relevance judgments and evaluation measures,2018,2,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-319-76941-7_15,Book Series,cp
+Thirty years of digital libraries research at the university of Padua: The systems side,2018,1,Communications in Computer and Information Science,10.1007/978-3-319-73165-0_4,Book Series,cp
+Thirty years of digital libraries research at the university of padua: The user side,2018,1,Communications in Computer and Information Science,10.1007/978-3-319-73165-0_5,Book Series,cp
+A surveillance system for diseases of companion animals in the Veneto region (Italy),2017,12,OIE Revue Scientifique Et Technique,10.20506/rst36.3.2732,Journal,ar
+LEARning Next gEneration Rankers (LEARNER 2017),2017,0,Ictir 2017 Proceedings of the 2017 ACM SIGIR International Conference on the Theory of Information Retrieval,10.1145/3121050.3121110,Conference Proceeding,cp
+Are IR evaluation measures on an interval scale?,2017,15,Ictir 2017 Proceedings of the 2017 ACM SIGIR International Conference on the Theory of Information Retrieval,10.1145/3121050.3121058,Conference Proceeding,cp
+Sub-corpora impact on system efiectiveness,2017,16,SIGIR 2017 Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval,10.1145/3077136.3080674,Conference Proceeding,cp
+On Including the user dynamic in learning to rank,2017,8,SIGIR 2017 Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval,10.1145/3077136.3080714,Conference Proceeding,cp
+AWARE: Exploiting evaluation measures to combine multiple assessors,2017,9,ACM Transactions on Information Systems,10.1145/3110217,Journal,ar
+What does affect the correlation among evaluation measures?,2017,11,ACM Transactions on Information Systems,10.1145/3106371,Journal,ar
+Semantic representation and enrichment of information retrieval experimental data,2017,21,International Journal on Digital Libraries,10.1007/s00799-016-0172-8,Journal,ar
+IMS @ TREC 2017 Core Track,2017,0,26th Text Retrieval Conference Trec 2017 Proceedings,,Conference Proceeding,cp
+Visual Analytics for Information Retrieval Evaluation Campaigns,2017,1,International Workshop on Visual Analytics,10.2312/eurova.20171115,Conference Proceeding,cp
+"Keyword-based access to relational data: To reproduce, or to not reproduce?",2017,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Preface,2017,0,Ceur Workshop Proceedings,,Conference Proceeding,ed
+An interval-like scale property for IR evaluation measures,2017,2,Ceur Workshop Proceedings,,Conference Proceeding,cp
+A software library for conducting large scale experiments on Learning to Rank algorithms,2017,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Preface,2017,0,Ceur Workshop Proceedings,,Conference Proceeding,ed
+"Keyword-based access to relational data: To reproduce, or to not reproduce?",2017,3,25th Italian Symposium on Advanced Database Systems Sebd 2017,,Conference Proceeding,cp
+Preface,2017,0,Ceur Workshop Proceedings,,Conference Proceeding,ed
+The Road Towards Reproducibility in Science: The Case of Data Citation,2017,4,Communications in Computer and Information Science,10.1007/978-3-319-68130-6_2,Book Series,cp
+Preface,2017,0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,,Book Series,ed
+Component-Based evaluation using GLMM?,2017,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Proposal for an evaluation framework for compliance checkers for long-term digital preservation,2017,2,Communications in Computer and Information Science,10.1007/978-3-319-56300-8_12,Book Series,cp
+An ontology to make the DELOS reference model and the 5S model interoperable,2017,0,Communications in Computer and Information Science,10.1007/978-3-319-56300-8_8,Book Series,cp
+Towards open-source shared implementations of keyword-based access systems to relational data,2017,6,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Reproducibility challenges in information retrieval evaluation,2017,46,Journal of Data and Information Quality,10.1145/3020206,Journal,ar
+"3.5K runs, 5K topics, 3M assessments and 70M measures: What trends in 10 years of Adhoc-ish CLEF?",2017,7,Information Processing and Management,10.1016/j.ipm.2016.08.001,Journal,ar
+A general linear mixed models approach to study system component effects,2016,45,SIGIR 2016 Proceedings of the 39th International ACM SIGIR Conference on Research and Development in Information Retrieval,10.1145/2911451.2911530,Conference Proceeding,cp
+A visual analytics approach for what-if analysis of information retrieval systems,2016,5,SIGIR 2016 Proceedings of the 39th International ACM SIGIR Conference on Research and Development in Information Retrieval,10.1145/2911451.2911462,Conference Proceeding,cp
+"Descendants, ancestors, children and parent: A set-based approach to efficiently address XPath primitives",2016,7,Information Processing and Management,10.1016/j.ipm.2015.11.001,Journal,ar
+System and user centered evaluation approaches in interactive information retrieval (SAUCE 2016),2016,2,Chiir 2016 Proceedings of the 2016 ACM Conference on Human Information Interaction and Retrieval,10.1145/2854946.2886106,Conference Proceeding,cp
+The twist measure for IR evaluation: Taking user's effort into account,2016,16,Journal of the Association for Information Science and Technology,10.1002/asi.23416,Journal,ar
+Digital library interoperability at high level of abstraction,2016,23,Future Generation Computer Systems,10.1016/j.future.2015.09.020,Journal,ar
+Preface,2016,0,Ceur Workshop Proceedings,,Conference Proceeding,ed
+Fast access to XML data: A set-based approach,2016,1,Proceedings of the 24th Italian Symposium on Advanced Database Systems Sebd 2016,,Conference Proceeding,cp
+IR Scientific data: How to semantically represent and enrich them,2016,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+What-if analysis: A visual analytics approach to Information Retrieval evaluation,2016,1,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Basis of a formal framework for information retrieval evaluation measurements,2016,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Preface,2016,0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,,Book Series,ed
+The CLEF monolingual grid of points,2016,9,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-319-44564-9_2,Book Series,cp
+Keyword-based search over databases: A roadmap for a reference architecture paired with an evaluation framework,2016,16,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-662-49521-6_1,Book Series,ar
+Towards a semantic web enabled representation of DL foundational models: The quality domain example,2016,3,Communications in Computer and Information Science,10.1007/978-3-319-41938-1_3,Book Series,cp
+The PREFORMA project: Federating memory institutions for better compliance of preservation formats,2016,1,Communications in Computer and Information Science,10.1007/978-3-319-41938-1_10,Book Series,cp
+From users to systems: Identifying and overcoming barriers to efficiently access archival data,2016,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Preface,2016,0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,,Book Series,ed
+"Advances in information retrieval: 38th European conference on IR research, ECIR 2016 Padua, Italy, march 20–23, 2016 proceedings",2016,5,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,,Book Series,cp
+Towards a formal framework for utility-oriented measurements of retrieval effectiveness,2015,28,Ictir 2015 Proceedings of the 2015 ACM SIGIR International Conference on the Theory of Information Retrieval,10.1145/2808194.2809452,Conference Proceeding,cp
+Preface,2015,0,Ceur Workshop Proceedings,,Conference Proceeding,ed
+A perspective look at keyword-based search over relation data and its evaluation (extended abstract)?,2015,1,23rd Italian Symposium on Advanced Database Systems Sebd 2015,,Conference Proceeding,cp
+Preface,2015,0,Ceur Workshop Proceedings,,Conference Proceeding,ed
+"Experimental IR meets multilinguality, multimodality, and interaction: 6th international conference of the CLEF association, CLEF’15 Toulouse, France, september 8–11, 2015 proceedings",2015,6,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,,Book Series,cp
+Preface,2015,0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,,Book Series,ed
+CLEF 2000 - 2014: Lessons Learnt from Ad Hoc Retrieval (Extended Abstract)?,2015,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Markov Precision: Modelling User Behaviour over Rank and Time Extended Abstract of [1],2015,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Rank-biased precision reloaded: Reproducibility and generalization,2015,17,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-319-16354-3_83,Book Series,cp
+Visual analytics for information retrieval evaluation (VAIRË 2015),2015,1,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-319-16354-3_91,Book Series,cp
+VIRTUE: A visual tool for information retrieval performance evaluation and failure analysis,2014,19,Journal of Visual Languages and Computing,10.1016/j.jvlc.2013.12.003,Journal,ar
+Preface,2014,0,Ceur Workshop Proceedings,,Conference Proceeding,ed
+CULTURA outcomes for improving the user's engagement with cultural heritage collections,2014,1,Procedia Computer Science,10.1016/j.procs.2014.10.007,Conference Proceeding,cp
+Measuring and analyzing the scholarly impact of experimental evaluation initiatives,2014,7,Procedia Computer Science,10.1016/j.procs.2014.10.022,Conference Proceeding,cp
+Enriching digital cultural heritage collections via annotations: The CULTURA approach,2014,1,22nd Italian Symposium on Advanced Database Systems Sebd 2014,,Conference Proceeding,cp
+CLEF 15thbirthday: What can we learn from ad hoc retrieval?,2014,12,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-319-11382-1_4,Book Series,cp
+Rethinking how to extend average precision to graded relevance,2014,3,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-319-11382-1_3,Book Series,cp
+"Bridging Between Cultural Heritage Institutions: 9th Italian Research Conference, IRCDL 2013, Rome, Italy, January 31-February 1, 2013, Revised Selected Papers",2014,0,Communications in Computer and Information Science,,Book Series,cp
+Fostering Interaction with Cultural Heritage Material via Annotations: The FAST-CAT Way,2014,4,Communications in Computer and Information Science,10.1007/978-3-642-54347-0_5,Book Series,cp
+Digital Archives: Extending the 5S Model through NESTOR,2014,0,Communications in Computer and Information Science,10.1007/978-3-642-54347-0_14,Book Series,cp
+Preface,2014,0,Communications in Computer and Information Science,10.1007/978-3-642-54347-0,Book Series,ed
+Injecting user models and time into precision via Markov chains,2014,18,SIGIR 2014 Proceedings of the 37th International ACM SIGIR Conference on Research and Development in Information Retrieval,10.1145/2600428.2609637,Conference Proceeding,cp
+Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics): Preface,2014,0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-642-54798-0,Book Series,ed
+A visual interactive environment for making sense of experimental data,2014,2,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-319-06028-6_92,Book Series,cp
+Keyword search and evaluation over relational databases: An outlook to the future,2013,1,ACM International Conference Proceeding Series,10.1145/2524828.2524836,Conference Proceeding,cp
+Cultural heritage in CLEF (CHiC) 2013,2013,17,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-642-40802-1_23,Book Series,cp
+Improving ranking evaluation employing visual analytics,2013,8,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-642-40802-1_4,Book Series,cp
+Formal models for digital archives: NESTOR and the 5S,2013,0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-642-40501-3_19,Book Series,cp
+NESTOR: A formal model for digital archives,2013,18,Information Processing and Management,10.1016/j.ipm.2013.05.001,Journal,ar
+Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics): Preface,2013,0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,,Book Series,ed
+Visual interactive failure analysis: Supporting users in information retrieval evaluation,2013,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Cumulated relative position: A metric for ranking evaluation?,2013,1,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Cultural heritage in CLEF (CHiC) 2013 - Multilingual task overview,2013,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+A visual analytics tool for experimental evaluation,2013,0,21st Italian Symposium on Advanced Database Systems Sebd 2013,,Conference Proceeding,cp
+Interacting with digital cultural heritage collections via annotations: The CULTURA approach,2013,12,Doceng 2013 Proceedings of the 2013 ACM Symposium on Document Engineering,10.1145/2494266.2494288,Conference Proceeding,cp
+Communications in Computer and Information Science: Preface,2013,1,Communications in Computer and Information Science,10.1007/978-3-642-35834-0,Book Series,ed
+Modeling archives by means of OAI-ORE,2013,7,Communications in Computer and Information Science,10.1007/978-3-642-35834-0_22,Book Series,cp
+Empowering archives through annotations,2013,3,Communications in Computer and Information Science,10.1007/978-3-642-35834-0_8,Book Series,cp
+Preface,2012,0,Proceedings of the 20th Italian Symposium on Advanced Database Systems Sebd 2012,,Conference Proceeding,ed
+"Information retrieval failure analysis: Visual analytics as a support for interactive ""what-if"" investigation",2012,2,IEEE Conference on Visual Analytics Science and Technology 2012 Vast 2012 Proceedings,10.1109/VAST.2012.6400551,Conference Proceeding,cp
+DIRECTions: Design and specification of an IR evaluation infrastructure,2012,21,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-642-33247-0_11,Book Series,cp
+Cumulated relative position: A metric for ranking evaluation,2012,8,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-642-33247-0_13,Book Series,cp
+Visual interactive failure analysis: Supporting users in information retrieval evaluation,2012,10,Iiix 2012 Proceedings 4th Information Interaction in Context Symposium Behaviors Interactions Interfaces Systems,10.1145/2362724.2362757,Conference Proceeding,cp
+Cultural heritage in CLEF (CHiC) overview 2012,2012,7,Ceur Workshop Proceedings,,Conference Proceeding,cp
+PROMISE - Participative research labOratory for multimedia and multilingual information systems evaluation,2011,0,Communications in Computer and Information Science,10.1007/978-3-642-27302-5_20,Book Series,cp
+EuropeanaConnect,2011,0,Communications in Computer and Information Science,10.1007/978-3-642-27302-5_17,Book Series,cp
+SIAR: A user-centric digital archive system,2011,1,Communications in Computer and Information Science,10.1007/978-3-642-27302-5_8,Book Series,cp
+"International Conference on Information and Knowledge Management, Proceedings: Preface",2011,0,International Conference on Information and Knowledge Management Proceedings,,Conference Proceeding,ed
+DESIRE 2011: First International Workshop on Data Infrastructures for Supporting Information Retrieval Evaluation,2011,3,International Conference on Information and Knowledge Management Proceedings,10.1145/2063576.2064048,Conference Proceeding,cp
+Interactive analysis and exploration of experimental evaluation results,2011,5,Ceur Workshop Proceedings,,Conference Proceeding,cp
+The NESTOR model: Properties and applications in the context of digital archives,2011,2,Sebd 2011 Proceedings of the 19th Italian Symposium on Advanced Database Systems,,Conference Proceeding,cp
+Handling hierarchically structured resources addressing interoperability issues in digital libraries,2011,2,Studies in Computational Intelligence,10.1007/978-3-642-22913-8_2,Book Series,ar
+To re-rank or to re-query: Can visual analytics solve this dilemma?,2011,7,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-642-23708-9_14,Book Series,cp
+Visual Comparison of Ranked Result Cumulated Gains,2011,8,International Workshop on Visual Analytics,10.2312/PE/EuroVAST/EuroVA11/021-024,Conference Proceeding,cp
+CHiC 2011 - Cultural heritage in CLEF: From use cases to evaluation in practice for multilingual information access to cultural heritage,2011,5,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Harnessing the scientific data produced by the experimental evaluation of search engines and information access systems,2011,8,Procedia Computer Science,10.1016/j.procs.2011.04.078,Conference Proceeding,cp
+Quality and interoperability: The quest for the optimal balance,2010,6,E Publishing and Digital Libraries Legal and Organizational Issues,10.4018/978-1-60960-031-0.ch003,Book,ch
+Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics): Preface,2010,0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,,Book Series,ed
+A PROMISE for experimental evaluation,2010,4,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-642-15998-5_16,Book Series,cp
+CLEF 2009 Ad hoc track overview: TEL and Persian tasks,2010,25,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-642-15754-7_2,Book Series,cp
+CLEF 2009: Grid@CLEF pilot track overview,2010,24,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-642-15754-7_68,Book Series,cp
+"The NESTOR framework: Manage, access and exchange hierarchical data structures",2010,11,Sebd 2010 Proceedings of the 18th Italian Symposium on Advanced Database Systems,,Conference Proceeding,cp
+FAST and NESTOR: How to exploit annotation hierarchies,2010,3,Communications in Computer and Information Science,10.1007/978-3-642-15850-6_7,Book Series,cp
+The FAST annotation service,2009,1,17th Italian Symposium on Advanced Database Systems Sebd 2009,,Conference Proceeding,cp
+Access and exchange of hierarchically structured resources on the Web with the NESTOR framework,2009,4,Proceedings 2009 IEEE Wic ACM International Conference on Web Intelligence Wi 2009,10.1109/WI-IAT.2009.110,Conference Proceeding,cp
+Managing the knowledge creation process of large-scale evaluation campaigns,2009,7,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-642-04346-8_8,Book Series,cp
+Annotation search: The FAST way,2009,11,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-642-04346-8_4,Book Series,cp
+The NESTOR framework: How to handle hierarchical data structures,2009,15,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-642-04346-8_22,Book Series,cp
+CLEF 2008: Ad hoc track overview,2009,55,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-642-04447-2_2,Book Series,cp
+CLEF 2009: Grid@CLEF pilot track overview,2009,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+CLEF 2009 Ad hoc track overview: TEL & persian tasks,2009,2,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Towards an infrastructure for digital library performance evaluation,2009,17,Evaluation of Digital Libraries an Insight into Useful Applications and Methods,10.1016/B978-1-84334-484-1.50006-5,Book,ch
+Towards a superimposed peer infrastructure for information access,2008,0,Sebd 2008 Proceedings of the 16th Italian Symposium on Advanced Database Systems,,Conference Proceeding,cp
+Adding advanced annotation functionalities to an existing digital library system,2008,2,Interdisciplinary Aspects of Information Systems Studies the Italian Association for Information Systems,10.1007/978-3-7908-2010-2_34,Book,ch
+How robust are multilingual information retrieval systems?,2008,9,Proceedings of the ACM Symposium on Applied Computing,10.1145/1363686.1363949,Conference Proceeding,cp
+A methodology for sharing archival descriptive metadata in a distributed environment,2008,11,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-540-87599-4_29,Book Series,cp
+Workshop on novel methodologies for evaluation in information retrieval,2008,0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-540-78646-7_86,Book Series,cp
+An evaluation resource for geographic information retrieval,2008,10,Proceedings of the 6th International Conference on Language Resources and Evaluation Lrec 2008,,Conference Proceeding,cp
+CLEF 2008: Ad hoc track overview,2008,2,Ceur Workshop Proceedings,,Conference Proceeding,cp
+GeoCLEF 2008: The CLEF 2008 cross-language geographic information retrieval track overview,2008,12,Ceur Workshop Proceedings,,Conference Proceeding,cp
+From research to application in multilingual information access: The contribution of evaluation,2008,1,Proceedings of the 6th International Conference on Language Resources and Evaluation Lrec 2008,,Conference Proceeding,cp
+CLEF 2007: Ad Hoc track overview,2008,29,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-540-85760-0_2,Book Series,cp
+GeoCLEF 2007: The CLEF 2007 Cross-language geographic information retrieval track overview,2008,26,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-540-85760-0_96,Book Series,cp
+The role of the DIKW hierarchy in the design of a digital library system for the scientific data of large-scale evaluation campaigns,2008,3,Proceedings of the ACM International Conference on Digital Libraries,10.1145/1378889.1378995,Conference Proceeding,cp
+DIRECT: Applying the DIKW hierarchy to large-scale evaluation campaigns,2008,5,Proceedings of the ACM International Conference on Digital Libraries,10.1145/1378889.1378971,Conference Proceeding,cp
+Design of a digital library system for large-scale evaluation campaigns,2008,4,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-540-87599-4_45,Book Series,cp
+Annotations: A way to interoperability in DL,2008,4,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-540-87599-4_31,Book Series,cp
+Distributed information retrieval and automatic identification of music works in SAPIR,2007,6,Sebd 2007 Proceedings of the 15th Italian Symposium on Advanced Database Systems,,Conference Proceeding,cp
+Design and development of a digital archive of illuminated manuscripts,2007,1,Proceedings 14th International Conference on Image Analysis and Processing Workshops Iciap 2007,10.1109/ICIAPW.2007.21,Conference Proceeding,cp
+A formal model of annotations of digital content,2007,76,ACM Transactions on Information Systems,10.1145/1292591.1292594,Journal,ar
+A historical and contemporary study on annotations to derive key features for systems design,2007,29,International Journal on Digital Libraries,10.1007/s00799-007-0010-0,Journal,ar
+GeoCLEF 2007: The CLEF 2007 cross-language geographic information retrieval track overview,2007,3,Ceur Workshop Proceedings,,Conference Proceeding,cp
+CLEF 2007: Ad hoc track overview,2007,3,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Adding multilingual information access to the European library,2007,5,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-540-77088-6_21,Book Series,cp
+An architecture for sharing metadata among geographically distributed archives,2007,3,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-540-77088-6_6,Book Series,cp
+The future of large-scale evaluation campaigns for information retrieval in Europe,2007,4,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-540-74851-9_54,Book Series,cp
+Roadmap for multiLingual information access in the European library,2007,6,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-540-74851-9_12,Book Series,cp
+Annotations and digital libraries: designing adequate test-beds,2007,1,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-540-77094-7_23,Book Series,cp
+The importance of scientific data curation for evaluation campaigns,2007,16,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-540-77088-6_15,Book Series,cp
+An approach for the construction of an experimental test collection to evaluate search systems that exploit annotations,2007,0,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-540-77088-6_16,Book Series,cp
+DelosDLMS - The integrated DELOS digital library management system,2007,20,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-540-77088-6_4,Book Series,cp
+Annotations as a tool for disclosing hidden relationships between illuminated manuscripts,2007,5,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-540-74782-6_57,Book Series,cp
+CLEF 2006: Ad hoc track overview,2007,21,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-540-74999-8_3,Book Series,cp
+Scientific data of an evaluation campaign: Do we properly deal with them?,2007,14,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-540-74999-8_2,Book Series,cp
+GeoCLEF 2006: The CLEF 2006 cross-language geographic information retrieval track overview,2007,39,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-540-74999-8_109,Book Series,cp
+How to compare bilingual to monolingual cross-language information retrieval,2007,1,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-540-71496-5_48,Book Series,cp
+Annotation as a support to user interaction for content enhancement in digital libraries,2006,11,Proceedings of the Workshop on Advanced Visual Interfaces,10.1145/1133265.1133296,Conference Proceeding,cp
+Integration of the DiLAS annotation service into digital library infrastructures,2006,2,D Lib Magazine,,Journal,ar
+GeoCLEF 2006: The CLEF 2006 Cross-language geographic information retrieval track overview,2006,2,Ceur Workshop Proceedings,,Conference Proceeding,cp
+CLEF 2006: Ad hoc track overview,2006,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Scientific data of an evaluation campaign: Do we properly deal with them?,2006,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Graph-based automatic suggestion of relationships among of images of illuminated manuscripts,2006,9,Proceedings of the ACM Symposium on Applied Computing,10.1145/1141277.1141528,Conference Proceeding,cp
+Scientific evaluation of a DLMS: A service for evaluating information access components,2006,3,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/11863878_62,Book Series,cp
+CLEF 2005: Ad hoc track overview,2006,20,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/11878773_2,Book Series,cp
+Search strategies for finding annotations and annotated documents: The FAST service,2006,13,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/11766254_23,Book Series,cp
+DIRECT: A system for evaluating information access components of digital libraries,2005,16,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,,Book Series,cp
+Annotating illuminated manuscripts: An effective tool for research and education,2005,23,Proceedings of the ACM IEEE Joint Conference on Digital Libraries,,Conference Proceeding,cp
+A probabilistic model for stemmer generation,2005,49,Information Processing and Management,10.1016/j.ipm.2004.04.006,Journal,ar
+CLEF 2005: Ad hoc track overview,2005,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+A system architecture as a support to a flexible annotation service,2005,16,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/11549819_10,Book Series,cp
+Experiments on statistical approaches to compensate for limited linguistic resources,2005,2,Lecture Notes in Computer Science,10.1007/11519645_6,Conference Proceeding,cp
+Annotations as context for searching documents,2005,32,Lecture Notes in Computer Science,10.1007/11495222_13,Conference Proceeding,cp
+CLEF 2004: Ad hoc track overview and results analysis,2005,17,Lecture Notes in Computer Science,10.1007/11519645_2,Conference Proceeding,cp
+The university of Padua at CLEF 2004: Experiments on statistical approaches to compensate for limited linguistic resources,2004,0,Ceur Workshop Proceedings,,Conference Proceeding,cp
+"Annotations in digital libraries and collaboratories - facets, models and usage",2004,48,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-540-30230-8_23,Book Series,ar
+Experiments to evaluate probabilistic models for automatic stemmer generation and query word translation,2004,10,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-540-30222-3_21,Book Series,ar
+The University of Padova at CLEF 2003: Experiments to evaluate probabilistic models for automatic stemmer generation and query word translation,2003,1,Ceur Workshop Proceedings,,Conference Proceeding,cp
+Annotations: Enriching a digital library,2003,29,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-540-45175-4_10,Book Series,ar
+Improving the automatic retrieval of text documents,2003,12,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/978-3-540-45237-9_23,Book Series,ar
+The effectiveness of a graph-based algorithm for stemming,2002,17,Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics,10.1007/3-540-36227-4_12,Book Series,ar
+University of Padua at CLEF 2002: Experiments to evaluate a statistical stemming algorithm,2002,9,Ceur Workshop Proceedings,,Conference Proceeding,cp

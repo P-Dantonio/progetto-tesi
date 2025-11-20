@@ -1,0 +1,2 @@
+Scopus_ID,First_Name,Last_Name,Affiliation,Documents,Citations,h_index,Number_of_Coauthors
+7004212771,John R.,Kitchin,"[Affiliation(id=60027950, parent=None, type='parent', relationship='author', afdispname=None, preferred_name='Carnegie Mellon University', parent_preferred_name=None, country_code='usa', country='United States', address_part='5000 Forbes Avenue', city='Pittsburgh', state='PA', postal_code='15213-3890', org_domain='cmu.edu', org_URL='https://www.cmu.edu/')]",153,31833,42,160

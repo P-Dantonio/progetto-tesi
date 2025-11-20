@@ -12,7 +12,7 @@ Salva i CSV con nome pulito (senza punti).
 from pathlib import Path
 import os
 import pandas as pd
-from pyblio_config import AuthorSearch, AuthorRetrieval, AbstractRetrieval
+from pybliometrics_conf.config.pyblio_config import AuthorSearch, AuthorRetrieval, AbstractRetrieval
 
 
 # ------------------------------------------------------------
