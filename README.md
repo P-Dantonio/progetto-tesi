@@ -94,7 +94,7 @@ InstToken
 
 VPN Universitaria attiva
 
-Consiglio anti-blocco: Prima di iniziare, invia una mail a datasupportRD@elsevier.com indicando istituto e scopo della ricerca per evitare limitazioni sulle chiamate API.
+Consiglio anti-blocco: Prima di iniziare, invia una mail a datasupportRD@elsevier.com indicando istituto e scopo della ricerca per evitare limitazioni sulle chiamate API. Loro ti forniranno l'Instoken.
 > chiave API 
 > InstToken
 > VPN universitaria
