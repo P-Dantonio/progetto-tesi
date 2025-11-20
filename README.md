@@ -61,6 +61,8 @@ AnalisiRicercatori-tesi/
 
 '''
 
+
+---
 ## Installazione e configurazione:
 
 I prerequisiti per poter far funzionare questo progetto sono:
@@ -113,8 +115,6 @@ from pyblio_config import AuthorRetrieval, ScopusSearch
 Nota: purtroppo per qualche motivo anche se sposto il file pybliometrics e i relativi file che lo utilizzano
 in una cartella separata, nonostante le ripetute verifiche sul percorso file, qualcosa si rompe e così ho deciso
 di lasciare invariata la configurazione dei file che utilizzano pybliometrics.
----
-
 
 
 
