@@ -83,7 +83,7 @@ pip install -r requirements.txt
 1. Google Scholar (SerpApi)
 Inserisci la tua chiave API nel file src/fetchers/scholar.py.
 
-Nota: Il piano gratuito di SerpApi ha un limite di ricerche mensili (circa 250). Monitora l'utilizzo per evitare interruzioni.
+Nota: Il piano gratuito di SerpApi ha un limite di ricerche mensili (max 250). Monitora l'utilizzo per evitare interruzioni.
 
 2. Scopus (Pybliometrics)
 Scopus richiede credenziali specifiche e una connessione autorizzata. Requisiti:
