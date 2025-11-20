@@ -35,13 +35,13 @@ def fetch_scholar_by_id(author_id: str, output_name: str | None = None, max_retr
             
             # Gestione errori API
             if "error" in results:
-                print(f"❌ Errore SerpApi: {results['error']}")
+                print(f" Errore SerpApi: {results['error']}")
                 break
 
             # Recupera il nome autore (solo al primo giro)
             if start == 0 and "author" in results:
                 author_name = results["author"].get("name", "Unknown_Author")
-                print(f"✅ Autore Trovato: {author_name}")
+                print(f" Autore Trovato: {author_name}")
 
             # Estrazione articoli
             if "articles" in results:
@@ -57,7 +57,7 @@ def fetch_scholar_by_id(author_id: str, output_name: str | None = None, max_retr
                         "year": art.get("year", ""),
                         # SerpApi restituisce le citazioni dentro 'cited_by' -> 'value'
                         "citations_scholar": art.get("cited_by", {}).get("value", 0),
-                        "venue": art.get("publication", ""), # Journal/Conference
+                        "venue": art.get("publication", ""), 
                         "link": art.get("link", ""),
                         "source": "Scholar"
                     }
@@ -70,23 +70,23 @@ def fetch_scholar_by_id(author_id: str, output_name: str | None = None, max_retr
             if "serpapi_pagination" in results and "next" in results["serpapi_pagination"]:
                 start += page_size 
             else:
-                print("🏁 Fine delle pagine disponibili.")
+                print(" Fine delle pagine disponibili.")
                 break
             
         except Exception as e:
-            print(f"❌ Eccezione durante la richiesta SerpApi: {e}")
+            print(f" Eccezione durante la richiesta SerpApi: {e}")
             break
 
     # --- SALVATAGGIO ---
     if not all_articles:
-        print("⚠️ Nessun articolo trovato o errore nel download.")
+        print(" Nessun articolo trovato o errore nel download.")
         return None
 
-    print(f"📚 Totale scaricati: {len(all_articles)} articoli.")
+    print(f" Totale scaricati: {len(all_articles)} articoli.")
     
     df = pd.DataFrame(all_articles)
     
-    # Assicurati che la cartella esista
+    # test se la cartella esiste, altrimenti creala
     os.makedirs("data/raw", exist_ok=True)
 
     # Determina il nome del file
@@ -97,5 +97,5 @@ def fetch_scholar_by_id(author_id: str, output_name: str | None = None, max_retr
 
     filename = f"data/raw/{base}_Scholar.csv"
     df.to_csv(filename, index=False)
-    print(f"\n💾 File salvato: {filename}")
+    print(f"\n File salvato: {filename}")
     return filename

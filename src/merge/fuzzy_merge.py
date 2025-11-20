@@ -122,14 +122,14 @@ def fuzzy_merge_datasets(scopus_file, scholar_file):
     total_scopus = len(scopus_df)
     match_ratio = match_count / total_scopus if total_scopus > 0 else 0
 
-    print(f"📊 Match trovati: {match_count}/{total_scopus} ({match_ratio:.1%})")
+    print(f"Match trovati: {match_count}/{total_scopus} ({match_ratio:.1%})")
 
     if match_ratio < 0.60:
-        print(f"⚠️ Match < 60% ({match_ratio:.1%}): Probabilmente non sono la stessa persona.")
+        print(f"Match < 60% ({match_ratio:.1%}): Probabilmente non sono la stessa persona.")
     
         raise ValueError("LOW_MATCH_SCORE") 
   
-    print("✅ Percentuale valida. Integrazione dati in corso...")
+    print("Percentuale valida. Integrazione dati in corso...")
 
  
 
@@ -178,5 +178,5 @@ def fuzzy_merge_datasets(scopus_file, scholar_file):
     merged_df["core_rank"] = merged_df["core_rank"].fillna("N/A").replace("", "N/A")
     merged_df["scimago_quartile"] = merged_df["scimago_quartile"].fillna("N/A").replace("", "N/A")
 
-    print("✅ Merge completato.")
+    print("Merge completato.")
     return merged_df
