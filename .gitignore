@@ -1,0 +1,49 @@
+# --- 1. Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- 2. Ambienti Virtuali ---
+venv/
+.venv/
+env/
+.env/
+venv310/
+
+# --- 3. Dati e Cache ---
+# Ignoriamo i dati scaricati per non intasare Git
+data/raw/
+data/cache/
+data/merged/
+# Ignoriamo tutti i file CSV/Excel 
+*.csv
+*.xlsx
+*.xls
+*.json
+*.pkl
+
+# --- 4. Configurazione e Chiavi API ---
+.env
+
+
+# --- 5. IDE e Editor ---
+.vscode/
+.idea/
+*.swp
+
+# --- 6. Testing ---
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- 7. Pybliometrics e Scopus ---
+config.ini
+scopus.properties
+
+# --- 8. Sistema Operativo ---
+.DS_Store
+Thumbs.db
+
+
+old/
+backup/

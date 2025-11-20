@@ -2,7 +2,7 @@ import os
 import io
 import zipfile
 from flask import Flask, render_template, request, jsonify, send_file
-import processing_logic
+import src.core.processing as processing
 
 app = Flask(__name__)
 CACHE_DIR = os.path.join(app.root_path, 'data', 'cache')
@@ -18,7 +18,7 @@ def search_scopus():
         data = request.json
         full_name = f"{data['nome']} {data['cognome']}"
         scholar_id = data['id']
-        candidates = processing_logic.search_scopus_candidates(full_name)
+        candidates = processing.search_scopus_candidates(full_name)
         return jsonify({'status': 'success', 'candidates': candidates, 'scholar_id': scholar_id})
     except Exception as e:
         return jsonify({'status': 'error', 'message': str(e)}), 500
@@ -29,7 +29,7 @@ def process_author():
     try:
         data = request.json
       
-        result = processing_logic.process_chosen_author(
+        result = processing.process_chosen_author(
             data['scopus_id'], data['scopus_name'], data['scholar_id']
         )
         
