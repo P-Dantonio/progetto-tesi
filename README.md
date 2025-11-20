@@ -58,7 +58,7 @@ AnalisiRicercatori-tesi/
 ├── app.py                  # Entry point Web (Flask)
 └── requirements.txt        # Dipendenze del progetto
 
-
+'''
 
 ## Installazione e configurazione:
 
@@ -117,6 +117,8 @@ from config.pyblio_config import AuthorRetrieval, ScopusSearch
 
 # Il tuo codice qui
 
+---
+ # AUTORE: D'Antonio Pia Eugenia
 
 
 
