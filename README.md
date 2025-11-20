@@ -58,7 +58,7 @@ AnalisiRicercatori-tesi/
 ├── app.py                  # Entry point Web (Flask)
 └── requirements.txt        # Dipendenze del progetto
 
-
+'''
 
 ## Installazione e configurazione:
 
@@ -83,21 +83,16 @@ pip install -r requirements.txt
 1. Google Scholar (SerpApi)
 Inserisci la tua chiave API nel file src/fetchers/scholar.py.
 
-Nota: Il piano gratuito di SerpApi ha un limite di ricerche mensili (circa 250). Monitora l'utilizzo per evitare interruzioni.
+Nota: Il piano gratuito di SerpApi ha un limite di ricerche mensili (max 250). Monitora l'utilizzo per evitare interruzioni.
 
 2. Scopus (Pybliometrics)
 Scopus richiede credenziali specifiche e una connessione autorizzata. Requisiti:
 
-API Key (da dev.elsevier.com)
+>API Key (da dev.elsevier.com)
+>InstToken
+>VPN Universitaria attiva
 
-InstToken
-
-VPN Universitaria attiva
-
-Consiglio anti-blocco: Prima di iniziare, invia una mail a datasupportRD@elsevier.com indicando istituto e scopo della ricerca per evitare limitazioni sulle chiamate API.
-> chiave API 
-> InstToken
-> VPN universitaria
+Consiglio anti-blocco: Prima di iniziare, invia una mail a datasupportRD@elsevier.com indicando istituto e scopo della ricerca per evitare limitazioni sulle chiamate API. Loro ti forniranno l'Instoken.
 
 ## Guida all'installazione di pybliometrics su windows
 
@@ -117,6 +112,8 @@ from config.pyblio_config import AuthorRetrieval, ScopusSearch
 
 # Il tuo codice qui
 
+---
+ # AUTORE: D'Antonio Pia Eugenia
 
 
 
