@@ -88,16 +88,11 @@ Nota: Il piano gratuito di SerpApi ha un limite di ricerche mensili (max 250). M
 2. Scopus (Pybliometrics)
 Scopus richiede credenziali specifiche e una connessione autorizzata. Requisiti:
 
-API Key (da dev.elsevier.com)
-
-InstToken
-
-VPN Universitaria attiva
+>API Key (da dev.elsevier.com)
+>InstToken
+>VPN Universitaria attiva
 
 Consiglio anti-blocco: Prima di iniziare, invia una mail a datasupportRD@elsevier.com indicando istituto e scopo della ricerca per evitare limitazioni sulle chiamate API. Loro ti forniranno l'Instoken.
-> chiave API 
-> InstToken
-> VPN universitaria
 
 ## Guida all'installazione di pybliometrics su windows
 
