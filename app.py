@@ -2,7 +2,7 @@ import os
 import io
 import zipfile
 from flask import Flask, render_template, request, jsonify, send_file
-import src.core.processing as processing
+import processing_logic as processing_logic
 
 app = Flask(__name__)
 CACHE_DIR = os.path.join(app.root_path, 'data', 'cache')
@@ -18,7 +18,7 @@ def search_scopus():
         data = request.json
         full_name = f"{data['nome']} {data['cognome']}"
         scholar_id = data['id']
-        candidates = processing.search_scopus_candidates(full_name)
+        candidates = processing_logic.search_scopus_candidates(full_name)
         return jsonify({'status': 'success', 'candidates': candidates, 'scholar_id': scholar_id})
     except Exception as e:
         return jsonify({'status': 'error', 'message': str(e)}), 500
@@ -28,27 +28,23 @@ def search_scopus():
 def process_author():
     try:
         data = request.json
-      
-        result = processing.process_chosen_author(
+        folder_name = processing_logic.process_chosen_author(
             data['scopus_id'], data['scopus_name'], data['scholar_id']
         )
-        
-      
-        return jsonify(result)
-        
+        if folder_name:
+            return jsonify({'status': 'success', 'folder': folder_name})
+        else:
+            return jsonify({'status': 'error', 'message': 'Errore elaborazione'}), 500
     except Exception as e:
         return jsonify({'status': 'error', 'message': str(e)}), 500
 
 # Download Zip
 @app.route('/download/zip/<author_folder>')
 def download_zip(author_folder):
-    # Controlla se la cartella esiste
     author_path = os.path.join(CACHE_DIR, author_folder)
     if not os.path.isdir(author_path): return "Non trovato", 404
-    # Crea un file zip in memoria RAM
     data = io.BytesIO()
     with zipfile.ZipFile(data, 'w', zipfile.ZIP_DEFLATED) as zf:
-        # Aggiungi tutti i file della cartella al file zip
         for root, dirs, files in os.walk(author_path):
             for file in files:
                 zf.write(os.path.join(root, file), file)

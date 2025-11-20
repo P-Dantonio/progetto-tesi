@@ -1,11 +1,18 @@
-import os
+import os, sys
 from pathlib import Path
 import pandas as pd
 
-from src.pybliometrics_conf.config.pyblio_config import AuthorSearch
-from src.fetchers import scopus   
-from src.fetchers import scholar  
+
+current_file = Path(__file__).resolve()
+project_root = current_file.parents[2]
+if str(project_root) not in sys.path:
+    sys.path.append(str(project_root))
+
+
+import fetcher_scopus as fetcher_scopus
+from src.fetchers import scholar_fetch
 from src.merge import fuzzy_merge
+from pyblio_config import AuthorSearch
 
 RAW_DIR = Path("data/raw")
 MERGE_DIR = Path("data/merged")
@@ -20,7 +27,7 @@ def check_cache(selected_name: str, source: str) -> bool:
 def save_author_cache(merged_df, author_name, scholar_id, metrics):
     author_dir = CACHE_DIR / f"{author_name}_{scholar_id}"
     author_dir.mkdir(parents=True, exist_ok=True)
-    print(f"\n Salvataggio in: {author_dir}")
+    print(f"\n📁 Salvataggio in: {author_dir}")
 
     pd.DataFrame(metrics.items(), columns=["Metric", "Value"]).to_csv(author_dir/"metrics.csv", index=False)
 
@@ -60,7 +67,7 @@ def save_author_cache(merged_df, author_name, scholar_id, metrics):
 # --- LOGICA PRINCIPALE ---
 
 def search_scopus_candidates(full_name):
-    print(f" Ricerca Scopus: {full_name}")
+    print(f"🔎 Ricerca Scopus: {full_name}")
     try:
         s = AuthorSearch(f'AUTHLASTNAME({full_name.split()[-1]}) AND AUTHFIRST({full_name.split()[0]})')
         return [{
@@ -76,108 +83,93 @@ def search_scopus_candidates(full_name):
 
 def process_chosen_author(scopus_id, scopus_name, scholar_id):
     """
-    Orchestratore principale:
-    1. Verifica Cache
-    2. Download Scopus (se manca)
-    3. Download Scholar (se manca)
-    4. Merge (Unione intelligente)
-    5. Calcolo Statistiche
-    6. Salvataggio
+    Gestisce il processo completo: Download -> Merge -> Salvataggio.
+    Gestisce Cache esistente, Mismatch e Pulizia file.
     """
-    print(f"\n[START] Elaborazione: {scopus_name} (ID: {scopus_id})")
+    print(f" Avvio elaborazione finale: {scopus_name} ({scopus_id}) - Scholar: {scholar_id}")
     
     safe_name = scopus_name.replace(",","").replace(" ","_")
     author_dir = CACHE_DIR / f"{safe_name}_{scholar_id}"
     
-    # 1. CONTROLLO CACHE COMPLETA
-    if author_dir.exists() and (author_dir / "metrics.csv").exists():
-        print(f"[CACHE] Dati già presenti. Recupero dalla cartella.")
+    # 1. CONTROLLO CACHE 
+    if author_dir.exists():
+        print(f"⚡ Cache già presente: {safe_name}. Recupero dati esistenti.")
         return {"status": "success", "folder": author_dir.name}
 
-    # Definizione percorsi file temporanei (RAW)
+    # Percorsi dei file temporanei
     scopus_file = RAW_DIR / f"{safe_name}_Scopus.csv"
     scholar_file = RAW_DIR / f"{safe_name}_Scholar.csv"
 
-    # 2. DOWNLOAD SCOPUS
+    # 2. DOWNLOAD 
     if not scopus_file.exists():
         try:
-            print("[DOWNLOAD] Scaricamento dati da Scopus...")
-            data = scopus.fetch_author_details(scopus_id)
-            
-            # --- CORREZIONE QUI SOTTO ---
-            # Prima era "if data:". Sbagliato per i DataFrame.
-            if data is not None and not data.empty: 
-                scopus.save_to_csv(data, safe_name)
-            else: 
-                return {"status": "error", "msg": "Nessun dato trovato su Scopus API"}
-                
-        except Exception as e:
-            return {"status": "error", "msg": f"Errore Scopus: {e}"}
+            print("📡 Download Scopus...")
+            data = fetcher_scopus.fetch_author_details(scopus_id)
+            if data: fetcher_scopus.save_to_csv(data, safe_name)
+            else: return {"status": "error", "msg": "Scopus API vuota"}
+        except Exception as e: return {"status": "error", "msg": f"Errore Scopus: {e}"}
 
-    # 3. DOWNLOAD SCHOLAR
     if not scholar_file.exists():
         try:
-            print("[DOWNLOAD] Scaricamento dati da Scholar...")
-            scholar.fetch_scholar_by_id(scholar_id, output_name=safe_name)
-        except Exception as e:
-            return {"status": "error", "msg": f"Errore Scholar API: {e}"}
+            print("📡 Download Scholar...")
+            scholar_fetch.fetch_scholar_by_id(scholar_id, output_name=safe_name)
+        except Exception as e: return {"status": "error", "msg": f"Errore Scholar: {e}"}
 
-    # 4. MERGE E ANALISI
+    # 3. MERGE E GESTIONE MISMATCH
     if scopus_file.exists() and scholar_file.exists():
         try:
-            print("[MERGE] Unione dei dataset in corso...")
+            # Tenta il merge 
             merged_df = fuzzy_merge.fuzzy_merge_datasets(scopus_file, scholar_file)
 
             if merged_df.empty:
-                 return {"status": "error", "msg": "Il merge ha prodotto 0 risultati."}
+                 return {"status": "error", "msg": "Merge vuoto (nessun dato)"}
 
-            # Pulizia dati numerici
+            # --- Calcolo Metriche  ---
             for c in ["citations_scopus", "citations_scholar", "year"]:
-                if c in merged_df.columns:
-                    merged_df[c] = pd.to_numeric(merged_df[c], errors="coerce").fillna(0)
+                merged_df[c] = pd.to_numeric(merged_df[c], errors="coerce").fillna(0)
             
-            # Calcolo anni mancanti
             miss_yrs = "N/A"
             if "year" in merged_df.columns:
-                yrs = merged_df.loc[merged_df["year"] > 1900, "year"].astype(int)
+                yrs = merged_df.loc[merged_df["year"]>0, "year"].astype(int)
                 if not yrs.empty:
-                    full_range = set(range(yrs.min(), yrs.max() + 1))
-                    existing = set(yrs)
-                    missing = sorted(full_range - existing)
-                    miss_yrs = ", ".join(map(str, missing)) if missing else "Nessuno"
+                    miss_yrs = ", ".join(map(str, sorted(set(range(yrs.min(), yrs.max()+1)) - set(yrs)))) or "Nessuno"
 
-            # Calcolo Metriche per la Dashboard
             metrics = {
                 "Totale pubblicazioni": len(merged_df),
-                "Totale citazioni Scopus": int(merged_df["citations_scopus"].sum()) if "citations_scopus" in merged_df else 0,
-                "Totale citazioni Scholar": int(merged_df["citations_scholar"].sum()) if "citations_scholar" in merged_df else 0,
-                "Percentuale Q1": f"{(merged_df['scimago_quartile'].eq('Q1').mean()*100):.1f}%" if 'scimago_quartile' in merged_df else "N/A",
-                "Percentuale A": f"{(merged_df['core_rank'].eq('A').mean()*100):.1f}%" if 'core_rank' in merged_df else "N/A",
-                "Percentuale A*": f"{(merged_df['core_rank'].eq('A*').mean()*100):.1f}%" if 'core_rank' in merged_df else "N/A",
-                "Numero Journal": len(merged_df[merged_df["type"].str.lower()=="journal"]) if 'type' in merged_df else 0,
-                "Numero Conference": len(merged_df[merged_df["type"].str.lower()=="conference proceeding"]) if 'type' in merged_df else 0,
-                "Numero Other Works": len(merged_df[~merged_df["type"].str.lower().isin(["journal","conference proceeding"])]) if 'type' in merged_df else 0,
+                "Totale citazioni Scopus": int(merged_df["citations_scopus"].sum()),
+                "Totale citazioni Scholar": int(merged_df["citations_scholar"].sum()),
+                "Percentuale Q1": f"{(merged_df['scimago_quartile'].eq('Q1').mean()*100):.1f}%",
+                "Percentuale A": f"{(merged_df['core_rank'].eq('A').mean()*100):.1f}%",
+                "Percentuale A*": f"{(merged_df['core_rank'].eq('A*').mean()*100):.1f}%",
+                "Numero Journal": len(merged_df[merged_df["type"].str.lower()=="journal"]),
+                "Numero Conference": len(merged_df[merged_df["type"].str.lower()=="conference proceeding"]),
+                "Numero Other Works": len(merged_df[~merged_df["type"].str.lower().isin(["journal","conference proceeding"])]),
                 "Anni di non pubblicazione": miss_yrs
             }
             
-            # 5. SALVATAGGIO FINALE
+            # Salva Cache 
             save_author_cache(merged_df, safe_name, scholar_id, metrics)
             
             return {"status": "success", "folder": author_dir.name}
 
         except ValueError as ve:
+            # === GESTIONE MISMATCH  ===
             if str(ve) == "LOW_MATCH_SCORE":
-                print("[WARN] Match insufficiente (< 60%). Pulizia file temporanei.")
+                print("Interrotto: Match < 60%.")
+                
+                # CANCELLAZIONE FILE RAW 
+                print("Cancellazione file raw non validi...")
                 try:
                     if scopus_file.exists(): os.remove(scopus_file)
                     if scholar_file.exists(): os.remove(scholar_file)
-                except OSError:
-                    pass
-                return {"status": "mismatch"} 
+                except Exception as e:
+                    print(f" Errore pulizia file: {e}")
+
+                return {"status": "mismatch"} # Segnale per il JS
             else:
                 return {"status": "error", "msg": str(ve)}
         except Exception as e:
-            return {"status": "error", "msg": f"Errore generico nel Merge: {e}"}
+            return {"status": "error", "msg": f"Errore Merge: {e}"}
             
     else:
-        return {"status": "error", "msg": "Download fallito: mancano i file CSV raw."}
+        return {"status": "error", "msg": "File CSV mancanti"}

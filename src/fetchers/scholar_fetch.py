@@ -35,19 +35,19 @@ def fetch_scholar_by_id(author_id: str, output_name: str | None = None, max_retr
             
             # Gestione errori API
             if "error" in results:
-                print(f"Errore SerpApi: {results['error']}")
+                print(f"❌ Errore SerpApi: {results['error']}")
                 break
 
             # Recupera il nome autore (solo al primo giro)
             if start == 0 and "author" in results:
                 author_name = results["author"].get("name", "Unknown_Author")
-                print(f"Autore Trovato: {author_name}")
+                print(f"✅ Autore Trovato: {author_name}")
 
             # Estrazione articoli
             if "articles" in results:
                 articles = results["articles"]
                 if not articles:
-                    print(" Nessun altro articolo trovato.")
+                    print("   🏁 Nessun altro articolo trovato.")
                     break 
                 
                 for art in articles:
@@ -74,15 +74,15 @@ def fetch_scholar_by_id(author_id: str, output_name: str | None = None, max_retr
                 break
             
         except Exception as e:
-            print(f"Eccezione durante la richiesta SerpApi: {e}")
+            print(f"❌ Eccezione durante la richiesta SerpApi: {e}")
             break
 
     # --- SALVATAGGIO ---
     if not all_articles:
-        print("Nessun articolo trovato o errore nel download.")
+        print("⚠️ Nessun articolo trovato o errore nel download.")
         return None
 
-    print(f"Totale scaricati: {len(all_articles)} articoli.")
+    print(f"📚 Totale scaricati: {len(all_articles)} articoli.")
     
     df = pd.DataFrame(all_articles)
     
@@ -97,5 +97,5 @@ def fetch_scholar_by_id(author_id: str, output_name: str | None = None, max_retr
 
     filename = f"data/raw/{base}_Scholar.csv"
     df.to_csv(filename, index=False)
-    print(f"\nFile salvato: {filename}")
+    print(f"\n💾 File salvato: {filename}")
     return filename
