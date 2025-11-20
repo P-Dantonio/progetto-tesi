@@ -97,9 +97,9 @@ from pybliometrics.scopus import (
 from pybliometrics.scopus.abstract_retrieval import AbstractRetrieval
 
 # ============================================================================
-# EXPORT ALL CLASSES
+# ESPORTO LE CLASSI
 # ============================================================================
-# These are all the classes available for import
+# Rendo disponibili tutte le classi principali per l'importazione diretta
 
 __all__ = [
     'ScopusSearch',
@@ -115,30 +115,30 @@ __all__ = [
 ]
 
 # ============================================================================
-# USAGE EXAMPLES
+# ESEMPI DI UTILIZZO
 # ============================================================================
 """
-Example 1: Retrieve Author Profile
-    from config.pyblio_config import AuthorRetrieval
+Esempio 1: Recupero Profilo Autore
+    from pybliometrics.scopus import AuthorRetrieval
     
     au = AuthorRetrieval("7004212771")
-    print(f"Name: {au.given_name} {au.surname}")
-    print(f"Documents: {au.document_count}")
-    print(f"Citations: {au.citation_count}")
+    print(f"Nome: {au.given_name} {au.surname}")
+    print(f"Documenti: {au.document_count}")
+    print(f"Citazioni: {au.citation_count}")
     print(f"h-index: {au.h_index}")
 
-Example 2: Search Publications
-    from config.pyblio_config import ScopusSearch
+Esempio 2: Ricerca Pubblicazioni
+    from pybliometrics.scopus import ScopusSearch
     
     query = "TITLE-ABS-KEY(machine learning) AND PUBYEAR > 2020"
     results = ScopusSearch(query, download=False)
-    print(f"Found {results.get_results_size()} results")
+    print(f"Trovati {results.get_results_size()} risultati")
 
-Example 3: Get Publication Details
-    from config.pyblio_config import AbstractRetrieval
+Esempio 3: Recupero Dettagli Pubblicazione
+    from pybliometrics.scopus import AbstractRetrieval
     
     pub = AbstractRetrieval("doi_or_eid")
-    print(f"Title: {pub.title}")
-    print(f"Authors: {pub.author_names}")
-    print(f"Citations: {pub.citedby_count}")
+    print(f"Titolo: {pub.title}")
+    print(f"Autori: {pub.author_names}")
+    print(f"Citazioni: {pub.citedby_count}")
 """
