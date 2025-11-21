@@ -11,7 +11,7 @@ CACHE_DIR = os.path.join(app.root_path, 'data', 'cache')
 
 @app.route('/')
 def index():
-    return render_template('dashboard.html')
+    return render_template('index.html')
 
 # Solo ricerca Scopus 
 @app.route('/search_scopus', methods=['POST'])
@@ -30,14 +30,13 @@ def search_scopus():
 def process_author():
     try:
         data = request.json
-        folder_name = processing_logic.process_chosen_author(
+        result_dict = processing_logic.process_chosen_author(
             data['scopus_id'], data['scopus_name'], data['scholar_id']
         )
-        if folder_name:
-            return jsonify({'status': 'success', 'folder': folder_name})
-        else:
-            return jsonify({'status': 'error', 'message': 'Errore elaborazione'}), 500
+        return jsonify(result_dict)
+        
     except Exception as e:
+        # Questo cattura solo errori di esecuzione imprevisti o di rete
         return jsonify({'status': 'error', 'message': str(e)}), 500
 
 # Download Zip

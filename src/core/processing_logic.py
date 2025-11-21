@@ -4,12 +4,12 @@ import pandas as pd
 
 
 current_file = Path(__file__).resolve()
-project_root = current_file.parents[2]
+project_root = current_file.parents[2] 
 if str(project_root) not in sys.path:
     sys.path.append(str(project_root))
 
 
-import src.fetchers.scopus as scopus
+from src.fetchers import scopus
 from src.fetchers import scholar
 from src.merge import fuzzy_merge
 from pyblio_config import AuthorSearch
@@ -36,7 +36,7 @@ def save_author_cache(merged_df, author_name, scholar_id, metrics):
     author_dir = CACHE_DIR / f"{safe_name}_{scholar_id}"
     author_dir.mkdir(parents=True, exist_ok=True)
     
-    print(f"\n📁 Salvataggio risultati in: {author_dir}")
+    print(f"\n Salvataggio risultati in: {author_dir}")
 
     # 1. Salva le metriche riassuntive
     pd.DataFrame(metrics.items(), columns=["Metric", "Value"]).to_csv(author_dir/"metrics.csv", index=False)
@@ -146,7 +146,7 @@ def process_chosen_author(scopus_id, scopus_name, scholar_id):
     Gestisce il processo completo: Download -> Merge -> Salvataggio.
     Gestisce Cache esistente, Mismatch (<60%) e Pulizia file.
     """
-    print(f"🚀 Avvio elaborazione finale: {scopus_name} ({scopus_id}) - Scholar: {scholar_id}")
+    print(f" Avvio elaborazione finale: {scopus_name} ({scopus_id}) - Scholar: {scholar_id}")
     
     safe_name = scopus_name.replace(",", "").replace(" ", "_")
     author_dir = CACHE_DIR / f"{safe_name}_{scholar_id}"
@@ -163,10 +163,10 @@ def process_chosen_author(scopus_id, scopus_name, scholar_id):
     # --- 2. DOWNLOAD DATI ---
     if not scopus_file.exists():
         try:
-            print("📡 Download Scopus in corso...")
-            data = scopus_fetcher.fetch_author_details(scopus_id)
+            print(" Download Scopus in corso...")
+            data = scopus.fetch_author_details(scopus_id)
             if data: 
-                scopus_fetcher.save_to_csv(data, safe_name)
+               scopus.save_to_csv(data, safe_name)
             else: 
                 return {"status": "error", "msg": "Scopus API ha restituito dati vuoti"}
         except Exception as e: 
@@ -175,7 +175,7 @@ def process_chosen_author(scopus_id, scopus_name, scholar_id):
     if not scholar_file.exists():
         try:
             print("📡 Download Scholar in corso...")
-            scholar_fetcher.fetch_scholar_by_id(scholar_id, output_name=safe_name)
+            scholar.fetch_scholar_by_id(scholar_id, output_name=safe_name)
         except Exception as e: 
             return {"status": "error", "msg": f"Errore Download Scholar: {e}"}
 
@@ -217,7 +217,6 @@ def process_chosen_author(scopus_id, scopus_name, scholar_id):
             
             # SALVATAGGIO CACHE (Solo ora salviamo i risultati definitivi)
             save_author_cache(merged_df, safe_name, scholar_id, metrics)
-            
             return {"status": "success", "folder": author_dir.name}
 
         except ValueError as ve:
@@ -225,10 +224,9 @@ def process_chosen_author(scopus_id, scopus_name, scholar_id):
             
             # === CASO: MATCH TROPPO BASSO (< 60%) ===
             if error_msg == "LOW_MATCH_SCORE":
-                print("⚠️ Interrotto: Match < 60%. Nessuna cache salvata.")
+                print(" Interrotto: Match < 60%. Nessuna cache salvata.")
                 
-                # PULIZIA: Cancella i file raw scaricati per evitare spazzatura
-                print("🧹 Cancellazione file raw non validi...")
+            
                 try:
                     if scopus_file.exists(): os.remove(scopus_file)
                     if scholar_file.exists(): os.remove(scholar_file)
@@ -238,7 +236,7 @@ def process_chosen_author(scopus_id, scopus_name, scholar_id):
                 # Ritorna status speciale 'mismatch' con messaggio chiaro per l'utente
                 return {
                     "status": "mismatch", 
-                    "message": "Attenzione: Gli autori Scopus e Scholar sembrano diversi (Match < 60%). Elaborazione annullata."
+                    "message": "Attenzione: Gli autori sembrano diversi."
                 }
             
             elif error_msg == "NO_MATCHES":
@@ -251,7 +249,7 @@ def process_chosen_author(scopus_id, scopus_name, scholar_id):
             return {"status": "error", "message": f"Errore imprevisto nel Merge: {e}"}
             
     else:
-        return {"status": "error", "msg": "File CSV mancanti, impossibile procedere."}
+        return {"status": "error", "message": "File CSV mancanti, impossibile procedere."}
             
     
 

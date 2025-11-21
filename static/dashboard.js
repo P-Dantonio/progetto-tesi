@@ -71,7 +71,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 })
             });
             const finalResult = await processResp.json();
-            
+
+            console.log(finalResult);
+
             if (finalResult.status === 'success') {
                 // CASO VERDE: Tutto ok
                 updateRow(rowId, "Completato", "risultato-successo", finalResult.folder);
@@ -102,7 +104,7 @@ document.addEventListener("DOMContentLoaded", () => {
             });
             modal.style.display = "flex";
             
-            // Clona per pulire eventi
+          
             const newBtn = confirmBtn.cloneNode(true);
             confirmBtn.parentNode.replaceChild(newBtn, confirmBtn);
             
@@ -124,10 +126,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function updateRow(id, status, cls, folder) {
         const tr = document.getElementById(id);
-        if(tr) {
-            tr.querySelector("td:nth-child(3)").className = cls;
-            tr.querySelector("td:nth-child(3)").textContent = status;
-            if(folder) tr.querySelector("td:nth-child(4)").innerHTML = `<a href="/download/zip/${folder}" class="btn-download">Scarica</a>`;
-        }
-    }
+            if(tr) {
+         
+            tr.className = cls; 
+        
+         
+            const statusCell = tr.querySelector("td:nth-child(3)");
+            statusCell.className = cls; 
+            statusCell.textContent = status;
+        
+            if(folder) tr.querySelector("td:nth-child(4)").innerHTML = `<a href="/download/zip/${folder}" class="btn-download">Scarica</a>`;
+    }
+}
 });
