@@ -44,6 +44,8 @@ scopus.properties
 .DS_Store
 Thumbs.db
 
+#--- 9. Nasconde la chiave API ---
+.env
 
 old/
 backup/

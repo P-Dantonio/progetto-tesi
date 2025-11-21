@@ -2,7 +2,9 @@ import os
 import io
 import zipfile
 from flask import Flask, render_template, request, jsonify, send_file
-import processing_logic as processing_logic
+import src.core.processing_logic as processing_logic
+from dotenv import load_dotenv
+load_dotenv()
 
 app = Flask(__name__)
 CACHE_DIR = os.path.join(app.root_path, 'data', 'cache')
@@ -50,6 +52,8 @@ def download_zip(author_folder):
                 zf.write(os.path.join(root, file), file)
     data.seek(0)
     return send_file(data, mimetype='application/zip', as_attachment=True, download_name=f'{author_folder}.zip')
+
+
 
 if __name__ == '__main__':
     app.run(debug=True)

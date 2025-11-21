@@ -1,22 +1,23 @@
+
 """
-PYBLIOMETRICS CONFIGURATION MODULE
+MODULO DI CONFIGURAZIONE PYBLIOMETRICS
 ========================================
 
-This module handles all Pybliometrics configuration for Windows systems.
-It automatically initializes the CONFIG variable and creates necessary directories.
+Questo modulo gestisce l'intera configurazione di Pybliometrics per i sistemi Windows.
+Inizializza automaticamente la variabile CONFIG e crea le directory necessarie.
 
-USAGE:
+USO:
     from config.pyblio_config import AuthorRetrieval, ScopusSearch
     
     au = AuthorRetrieval("author_id")
     results = ScopusSearch("TITLE(keywords)")
 
-This module should be imported in ALL your scripts instead of importing
-directly from pybliometrics.scopus
+Questo modulo DEVE essere importato in TUTTI i tuoi script invece di importare
+direttamente da pybliometrics.scopus
 
-IMPORTANT: Windows-specific configuration
-Pybliometrics 4.x has specific configuration requirements on Windows.
-This module handles all of that automatically.
+IMPORTANTE: Configurazione specifica per Windows
+Pybliometrics 4.x ha requisiti di configurazione specifici su Windows.
+Questo modulo gestisce tutto ciò automaticamente.
 """
 
 import os
@@ -24,33 +25,33 @@ from pathlib import Path
 import configparser
 
 # ============================================================================
-# STEP 1: Configuration Setup
+# PASSO 1: Setup della Configurazione
 # ============================================================================
 
-# Set the configuration file path
+# Definisce il percorso del file di configurazione
 config_file = Path.home() / '.pybliometrics' / 'config.ini'
 os.environ['PYB_CONFIG_FILE'] = str(config_file)
 
 # ============================================================================
-# STEP 2: Initialize CONFIG Variable
+# PASSO 2: Inizializzazione della Variabile CONFIG
 # ============================================================================
-# This is critical for Pybliometrics 4.x on Windows
-# The get_config() function checks this global variable
+# Questo è critico per Pybliometrics 4.x su Windows
+# La funzione get_config() verifica questa variabile globale
 
 import pybliometrics.utils.startup as startup
 
-# Read the configuration file
+# Legge il file di configurazione
 config = configparser.ConfigParser()
 config.read(config_file)
 
-# Set the CONFIG variable that Pybliometrics checks
+# Imposta la variabile CONFIG che Pybliometrics verifica
 startup.CONFIG = config
 
 # ============================================================================
-# STEP 3: Create Directory Structure
+# PASSO 3: Creazione della Struttura delle Directory
 # ============================================================================
-# Pybliometrics needs specific directory structure for caching results
-# These are created automatically the first time, but we ensure they exist
+# Pybliometrics necessita di una specifica struttura di directory per il caching dei risultati.
+# Queste vengono create automaticamente al primo avvio, ma qui ne garantiamo l'esistenza.
 
 scopus_dir = Path.home() / '.pybliometrics' / 'Scopus'
 
@@ -77,21 +78,21 @@ for subdir in subdirs:
     (scopus_dir / subdir).mkdir(parents=True, exist_ok=True)
 
 # ============================================================================
-# STEP 4: Import Pybliometrics Classes
+# PASSO 4: Importazione delle Classi Pybliometrics
 # ============================================================================
-# Now that configuration is set up, we can import and export the main classes
+# Ora che la configurazione è impostata, possiamo importare ed esportare le classi principali
 
 from pybliometrics.scopus import (
-    ScopusSearch,           # Search for publications
-    AuthorRetrieval,        # Get author information
-    AbstractRetrieval,      # Get publication details
-    AffiliationRetrieval,   # Get institution information
-    AuthorSearch,           # Search for authors
-    AffiliationSearch,      # Search for institutions
-    SerialSearch,           # Search for journals
-    SerialTitle,            # Get journal information
-    PlumXMetrics,           # Get PlumX article metrics
-    SubjectClassifications  # Get subject area classifications
+    ScopusSearch,               # Ricerca di pubblicazioni
+    AuthorRetrieval,            # Recupero informazioni autore
+    AbstractRetrieval,          # Recupero dettagli pubblicazione
+    AffiliationRetrieval,       # Recupero informazioni istituzione
+    AuthorSearch,               # Ricerca di autori
+    AffiliationSearch,          # Ricerca di istituzioni
+    SerialSearch,               # Ricerca di riviste/serials
+    SerialTitle,                # Recupero informazioni riviste
+    PlumXMetrics,               # Recupero metriche PlumX (articoli)
+    SubjectClassifications      # Recupero classificazioni aree tematiche
 )
 
 from pybliometrics.scopus.abstract_retrieval import AbstractRetrieval

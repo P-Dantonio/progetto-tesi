@@ -19,7 +19,7 @@ project_root = os.path.dirname(os.path.dirname(current_dir))
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
-# Nota: Assicurati che questo percorso di importazione corrisponda alla tua struttura file
+# Importa dal nostro modulo di configurazione
 from pyblio_config_test import AuthorRetrieval
 import pandas as pd
 from pathlib import Path
@@ -47,8 +47,7 @@ def analyze_author(author_id, author_name="Unknown"):
         # Recupera l'autore da Scopus
         au = AuthorRetrieval(author_id)
         
-        # Estrai informazioni chiave
-        # Nota: Mantengo le chiavi in inglese per le intestazioni del CSV
+        # Costruisci il dizionario dei dati autore
         author_data = {
             'Scopus_ID': author_id,
             'First_Name': au.given_name,

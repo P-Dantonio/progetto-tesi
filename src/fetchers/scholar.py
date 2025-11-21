@@ -1,12 +1,10 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 
 from serpapi import GoogleSearch
 import pandas as pd
 import os
 
 # La tua API Key
-SERPAPI_KEY = "236558ca189bbddb6b49fe6a9b5dce0050e1938592e20834725bd777c4f3b3f5"
+SERPAPI_KEY = os.getenv("SERPAPI_KEY")
 
 def fetch_scholar_by_id(author_id: str, output_name: str | None = None, max_retries: int = 3):
    

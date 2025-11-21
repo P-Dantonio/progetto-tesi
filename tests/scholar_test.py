@@ -111,7 +111,7 @@ def test_general_search():
 
 if __name__ == "__main__":
     if SERPAPI_KEY == "INSERISCI_LA_TUA_API_KEY_QUI":
-        print("⚠️  ATTENZIONE: Devi inserire la tua SERPAPI_KEY nello script prima di eseguire.")
+        print("ATTENZIONE: Devi inserire la tua SERPAPI_KEY nello script prima di eseguire.")
     else:
         # Esegue il test 1 e cattura il DataFrame
         df_author_pubs = test_author_profile()
@@ -126,7 +126,7 @@ if __name__ == "__main__":
             
             csv_file = output_dir / "author_search_scholarcsv"
             df_author_pubs.to_csv(csv_file, index=False)
-            print(f"\n📁 CSV Salvato in: {csv_file} ({len(df_author_pubs)} righe)")
+            print(f"\n CSV Salvato in: {csv_file} ({len(df_author_pubs)} righe)")
 
         if df_author_pubs is not None and t2_passed:
             print("\n✓✓✓ TUTTI I TEST SERPAPI SUPERATI! ✓✓✓")

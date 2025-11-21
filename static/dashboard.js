@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     async function processSingleAuthorFlow(authData) {
         // Crea la riga iniziale
-        const rowId = addRow(authData.nome + " " + authData.cognome, "Ricerca Scopus...", "stato-loading");
+        const rowId = addRow(authData.nome + " " + authData.cognome, "Ricerca autore in corso...", "stato-loading");
         
         try {
             // 1. Cerca candidati Scopus

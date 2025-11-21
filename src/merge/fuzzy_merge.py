@@ -63,7 +63,7 @@ def load_scimago_data():
 # ============================================================
 
 def fuzzy_merge_datasets(scopus_file, scholar_file):
-    print(f"\n🔗 Avvio confronto tra: {scopus_file.name} e {scholar_file.name}")
+    print(f"\n Avvio confronto tra: {scopus_file.name} e {scholar_file.name}")
 
     scopus_df = pd.read_csv(scopus_file)
     scholar_df = pd.read_csv(scholar_file)
@@ -82,6 +82,7 @@ def fuzzy_merge_datasets(scopus_file, scholar_file):
     # 2. Matching Scopus/Scholar 
     for _, s_row in scopus_df.iterrows():
         title_norm = s_row["title_norm"]
+        print(f" Elaborazione: {s_row['title']}")
         match = process.extractOne(title_norm, scholar_title_list, scorer=fuzz.token_sort_ratio, score_cutoff=70)
         
         base_row = {
@@ -180,3 +181,4 @@ def fuzzy_merge_datasets(scopus_file, scholar_file):
 
     print("Merge completato.")
     return merged_df
+
