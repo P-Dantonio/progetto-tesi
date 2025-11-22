@@ -55,6 +55,14 @@ Il sistema sviluppato permette di:
 ```tree
 AnalisiRicercatori-tesi/
 │
+├── data/                     # File di configurazione
+│ ├── cache/                  # cache in cui vengono salvate le cartelle con i risultati
+│ └── external/               # File scaricati da Scimago e Core
+│     ├── core.csv        
+│     └── scimago_clean.csv
+│     └── scimago.csv
+│ ├── merged/                   # Cartella contenente i dati dopo il merge
+│ ├── raw/                      # Cartella contenente i dati scaricati da Scopus e Scholar
 ├── set_up/                     # File di configurazione
 │ ├── requirements.txt          # Dipendenze Python
 │ └── setup_pybliometrics.py    # Setup iniziale Scopus
