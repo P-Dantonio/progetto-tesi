@@ -47,48 +47,44 @@ Il sistema sviluppato permette di:
 
 ----------
 
+## ARCHITETTURA DEL SISTEMA
+
+
+# Architettura del Sistema - AnalisiRicercatori-tesi
+
+```tree
 AnalisiRicercatori-tesi/
 │
-├── data/                     # Dati locali o file CSV generati
+├── set_up/                     # File di configurazione
+│ ├── requirements.txt          # Dipendenze Python
+│ └── setup_pybliometrics.py    # Setup iniziale Scopus
 │
-├── set_up/                   # Script e file per configurazione e installazione
-│ ├── requirements.txt        # Librerie Python necessarie
-│ └── setup_pybliometrics.py  # Configurazione Pybliometrics (Scopus API)
-│
-├── src/                      # Codice sorgente principale
-│ ├── core/                   # Logica centrale del progetto
-│ │ └── processing_logic.py   # Funzioni di elaborazione dei dati
+├── src/                        # Codice sorgente principale
+│ ├── core/                     # Logica centrale e processing
+│ │ └── processing_logic.py     # Funzioni di elaborazione dati
 │ │
-│ ├── fetchers/               # Moduli per il recupero dati da fonti esterne
-│ │ ├── scholar.py            # Fetcher per Google Scholar
-│ │ └── scopus.py             # Fetcher per Scopus (Pybliometrics)
+│ ├── fetchers/                 # Moduli per la raccolta dati
+│ │ ├── scholar.py              # Fetcher per Google Scholar
+│ │ └── scopus.py               # Fetcher per Scopus
 │ │
-│ └── merge/                  # Logica di fusione e pulizia dei dati
-│   └── fuzzy_merge.py        # Merge fuzzy dei record simili
+│ └── merge/                    # Logica di fusione dei record
+│   └── fuzzy_merge.py          # Implementazione del merge fuzzy
 │
-├── static/                   # File statici per il frontend
-│ ├── dashboard.js            # Script JavaScript del dashboard
-│ └── style.css               # Stile CSS della pagina
+├── web/
+│ ├── static/                   # Asset per il frontend
+│ │ ├── dashboard.js            # Logica JavaScript del dashboard
+│ │ └── style.css               # Stile CSS
+│ └── templates/                # Template HTML
+│   └── index.html              # Pagina principale del dashboard
 │
-├── templates/                # Template HTML
-│ └── index.html              # Pagina principale del dashboard
+├── tests/                      # Suite di Test
+│ ├── test_scopus.py            # Test del fetcher Scopus
+│ └── ... (altri test)
 │
-├── tests/                    # Test automatici dei vari componenti
-│ ├── pyblio_config_test.py   # Test configurazione Pybliometrics
-│ ├── scholar_test.py         # Test fetcher Google Scholar
-│ ├── test_installazione.py   # Verifica delle dipendenze
-│ ├── test_processing.py      # Test della logica di elaborazione
-│ ├── test_profilo_autore.py  # Test profili autori
-│ ├── test_scopus.py          # Test fetcher Scopus
-│ └── test_utils.py           # Test utility varie
-│
-├── app.py                    # Entry point dell'applicazione web
-├── pyblio_config.py          # Configurazione API Scopus
-├── .gitignore                # File da ignorare in Git
-├── .env                      # Variabili d'ambiente sensibili
-└── README.md                 # Documentazione generale del progetto
-
-
+├── app.py                      # Entry point dell'applicazione web (e.g., Flask)
+├── .env                        # Variabili d'ambiente sensibili (API keys)
+└── README.md
+```
 ----------
 
 # Installazione e configurazione
@@ -174,5 +170,3 @@ Inserisci API Key e InstToken quando richiesto.
 ## Come si usa?
 
 `from pyblio_config import AuthorRetrieval, ScopusSearch # Il tuo codice qui` 
-
-Nota: attualmente, se i file `pybliometrics` vengono spostati in altre cartelle, la libreria potrebbe non trovarli correttamente. Per stabilità si è scelto di metterli nelle cartelle con i file che li utilizzano.
