@@ -47,27 +47,47 @@ Il sistema sviluppato permette di:
 
 ----------
 
-## ARCHITETTURA DEL SISTEMA
+AnalisiRicercatori-tesi/
+│
+├── data/                     # Dati locali o file CSV generati
+│
+├── set_up/                   # Script e file per configurazione e installazione
+│ ├── requirements.txt        # Librerie Python necessarie
+│ └── setup_pybliometrics.py  # Configurazione Pybliometrics (Scopus API)
+│
+├── src/                      # Codice sorgente principale
+│ ├── core/                   # Logica centrale del progetto
+│ │ └── processing_logic.py   # Funzioni di elaborazione dei dati
+│ │
+│ ├── fetchers/               # Moduli per il recupero dati da fonti esterne
+│ │ ├── scholar.py            # Fetcher per Google Scholar
+│ │ └── scopus.py             # Fetcher per Scopus (Pybliometrics)
+│ │
+│ └── merge/                  # Logica di fusione e pulizia dei dati
+│   └── fuzzy_merge.py        # Merge fuzzy dei record simili
+│
+├── static/                   # File statici per il frontend
+│ ├── dashboard.js            # Script JavaScript del dashboard
+│ └── style.css               # Stile CSS della pagina
+│
+├── templates/                # Template HTML
+│ └── index.html              # Pagina principale del dashboard
+│
+├── tests/                    # Test automatici dei vari componenti
+│ ├── pyblio_config_test.py   # Test configurazione Pybliometrics
+│ ├── scholar_test.py         # Test fetcher Google Scholar
+│ ├── test_installazione.py   # Verifica delle dipendenze
+│ ├── test_processing.py      # Test della logica di elaborazione
+│ ├── test_profilo_autore.py  # Test profili autori
+│ ├── test_scopus.py          # Test fetcher Scopus
+│ └── test_utils.py           # Test utility varie
+│
+├── app.py                    # Entry point dell'applicazione web
+├── pyblio_config.py          # Configurazione API Scopus
+├── .gitignore                # File da ignorare in Git
+├── .env                      # Variabili d'ambiente sensibili
+└── README.md                 # Documentazione generale del progetto
 
-AnalisiRicercatori-tesi/  
-│  
-├── data/ # Gestione Dati (ignorata da Git)  
-│ ├── raw/ # Dati grezzi scaricati (CSV)  
-│ ├── merged/ # Dataset unificati post-processing  
-│ └── cache/ # Dati finali pronti per la dashboard  
-│  
-├── src/ # Codice Sorgente  
-│ ├── config/ # Configurazioni e API Keys  
-│ ├── core/ # Logica di Business (Orchestrator)  
-│ ├── fetchers/ # Moduli di connessione (Scopus, Scholar)  
-│ └── merge/ # Logica di Fuzzy Matching  
-│  
-├── scripts/ # Script di utilità (test connessioni, setup)  
-├── templates/ # Frontend (HTML)  
-├── static/ # Assets (CSS, JS)  
-├── tests/ # Unit Testing (Pytest)  
-├── app.py # Entry point Web (Flask)  
-└── requirements.txt # Dipendenze del progetto
 
 ----------
 
