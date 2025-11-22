@@ -16,14 +16,14 @@ Il sistema sviluppato permette di:
 
 ### Multi-Source Fetching
 
--   **Scopus:** Integrazione nativa tramite la libreria `pybliometrics`.
+-   **Scopus:** Integrazione tramite la libreria `pybliometrics`.
     
--   **Google Scholar:** Scraping resiliente tramite `SerpApi`.
+-   **Google Scholar:** Scraping tramite `SerpApi`.
     
 
 ### Intelligent Merging
 
--   Unisce i record basandosi su similarità del titolo e anno di pubblicazione, gestendo discrepanze nei metadati.
+-   Unisce i record basandosi su similarità del titolo e anno di pubblicazione, gestendo discrepanze nei dati.
     
 
 ### Analisi Qualitativa
