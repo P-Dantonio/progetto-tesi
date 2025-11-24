@@ -55,7 +55,7 @@ Il sistema sviluppato permette di:
 ```tree
 AnalisiRicercatori-tesi/
 │
-├── data/                     # File di configurazione
+├── data/                     # Cartella contenente i dati elaborati e i dati scimago/core
 │ ├── cache/                  # cache in cui vengono salvate le cartelle con i risultati
 │ └── external/               # File scaricati da Scimago e Core
 │     ├── core.csv        
