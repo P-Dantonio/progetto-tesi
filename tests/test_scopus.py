@@ -21,10 +21,12 @@ def test_search_author_success(mock_search_class):
     fake_author = MagicMock()
     fake_author.givenname = "Mario"
     fake_author.surname = "Rossi"
-    fake_author.eid = "9-s2.0-123456789"
+    fake_author.identifier = "123456789" 
+    fake_author.eid = "9-s2.0-123456789" 
     fake_author.affiliation = "University of Test"
     fake_author.documents = "10"
     fake_author.city = "Rome"
+
 
     # Configuro il mock per restituire una lista con il mio autore finto
     mock_instance = mock_search_class.return_value
