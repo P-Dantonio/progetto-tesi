@@ -55,7 +55,7 @@ Il sistema sviluppato permette di:
 ```tree
 AnalisiRicercatori-tesi/
 │
-├── data/                     # File di configurazione
+├── data/                     # Cartella contenente i dati elaborati e i dati scimago/core
 │ ├── cache/                  # cache in cui vengono salvate le cartelle con i risultati
 │ └── external/               # File scaricati da Scimago e Core
 │     ├── core.csv        
@@ -169,7 +169,7 @@ per ottenere un InstToken e un profilo senza limitazioni.
 
 Esegui la configurazione iniziale:
 
-`python pybliometrics_conf/setup_pybliometrics.py` 
+`python set_up/setup_pybliometrics.py` 
 
 Inserisci API Key e InstToken quando richiesto.
 
