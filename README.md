@@ -169,7 +169,7 @@ per ottenere un InstToken e un profilo senza limitazioni.
 
 Esegui la configurazione iniziale:
 
-`python pybliometrics_conf/setup_pybliometrics.py` 
+`python set_up/setup_pybliometrics.py` 
 
 Inserisci API Key e InstToken quando richiesto.
 
