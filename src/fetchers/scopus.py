@@ -48,69 +48,6 @@ def clean_name_for_filename(name: str) -> str:
     return name.replace(".", "").replace("  ", " ").strip().replace(" ", "_")
 
 
-# ------------------------------------------------------------
-# Ricerca autore
-# ------------------------------------------------------------
-def search_author_by_name(full_name: str):
-    """
-    Mostra la lista degli autori omonimi e fa scegliere.
-    Ritorna (author_id, selected_name) — selected_name è già ripulito per i file.
-    """
-    print(f"\n Searching Scopus for author: {full_name}")
-
-    try:
-        first, last = full_name.strip().split(" ", 1)
-    except ValueError:
-        print(" Inserisci sia nome che cognome (es. Giovanni Stea).")
-        return None, None
-
-    query = f"AUTHLASTNAME({last}) AND AUTHFIRST({first})"
-    print(f" Query Scopus: {query}")
-
-    try:
-        search = AuthorSearch(query)
-    except Exception as e:
-        print(f" Errore durante la ricerca Scopus: {e}")
-        return None, None
-
-    authors = getattr(search, "authors", []) or []
-    if not authors:
-        print(" Nessun autore trovato su Scopus.")
-        return None, None
-
-    print(f"\n Found {len(authors)} possible matches:\n")
-    for i, author in enumerate(authors, start=1):
-        aff = getattr(author, "affiliation", "N/A")
-        given = getattr(author, "given_name", getattr(author, "givenname", ""))
-        surname = getattr(author, "surname", "")
-        author_id_raw = getattr(author, "identifier", getattr(author, "author_id", getattr(author, "eid", "N/A")))
-        print(f"[{i}] {given} {surname} — {aff} — ID: {author_id_raw}")
-
-    # scelta utente
-    while True:
-        choice = input("\n Enter the number of the author you want (or 0 to cancel): ").strip()
-        if choice.isdigit():
-            idx = int(choice)
-            if idx == 0:
-                print(" Operazione annullata.")
-                return None, None
-            if 1 <= idx <= len(authors):
-                break
-        print(" Scelta non valida. Riprova.")
-
-    selected = authors[idx - 1]
-    author_id = getattr(selected, "identifier", getattr(selected, "author_id", getattr(selected, "eid", None)))
-    # rimuovi prefisso Scopus "9-s2.0-"
-    if isinstance(author_id, str) and author_id.startswith("9-s2.0-"):
-        author_id = author_id.split("-")[-1]
-
-    given = getattr(selected, "given_name", getattr(selected, "givenname", "")).strip()
-    surname = getattr(selected, "surname", "").strip()
-    selected_name = f"{given} {surname}"
-    selected_name = clean_name_for_filename(selected_name)
-
-    return author_id, selected_name
-
 
 # ------------------------------------------------------------
 # Dettagli + pubblicazioni autore
@@ -178,7 +115,7 @@ def search_author_by_name(full_name: str):
         return candidates
 
     except Exception as e:
-        print(f"❌ Errore critico ricerca Scopus: {e}")
+        print(f" Errore critico ricerca Scopus: {e}")
         return []
 
 
