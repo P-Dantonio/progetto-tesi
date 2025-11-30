@@ -52,7 +52,7 @@ def save_author_cache(merged_df, author_name, scholar_id, metrics):
             conf_df["rank_order"] = conf_df["core_rank"].map(rank_order).fillna(99)
             conf_df.sort_values(by=["year", "rank_order"], ascending=[False, True], inplace=True)
             conf_df.drop(columns=["rank_order"], inplace=True, errors="ignore")
-            conf_df.drop(coloumns = ["scimago_quartile"], inplace=True, errors="ignore")
+            conf_df.drop(coloumns = ["scimago_quartile", "sjr_core"], inplace=True, errors="ignore")
             conf_df.to_csv(conf_path, index=False)
         else:
             pd.DataFrame().to_csv(conf_path, index=False) # File vuoto se non ci sono conferenze
