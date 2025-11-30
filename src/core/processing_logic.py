@@ -27,6 +27,29 @@ for d in (RAW_DIR, MERGE_DIR, CACHE_DIR):
 #  1. FUNZIONI DI SUPPORTO (Salvataggio e Metriche)
 # ============================================================
 
+def calculate_h_index_from_list(citation_list):
+    """
+    Algoritmo matematico per calcolare l'H-index da una lista di citazioni.
+    1. Ordina decrescente (dal paper più citato a quello meno citato).
+    2. Trova l'ultimo punto dove citazioni >= rank.
+    """
+    # Assicuriamoci che siano tutti interi e rimuoviamo errori
+    clean_citations = [int(c) for c in citation_list if pd.notnull(c)]
+    
+    # Passaggio 1: Ordinamento Decrescente
+    clean_citations.sort(reverse=True)
+    
+    h_index = 0
+    # Passaggio 2 & 3: Iterazione e confronto
+    for i, citations in enumerate(clean_citations):
+        rank = i + 1
+        if citations >= rank:
+            h_index = rank
+        else:
+            break
+            
+    return h_index
+
 def save_author_cache(merged_df, author_name, scholar_id, metrics):
     """
     Salva i risultati finali (divisi per categoria) nella cartella cache.
@@ -186,6 +209,7 @@ def process_chosen_author(scopus_id, scopus_name, scholar_id):
             # Tenta il merge. 
             # Se il match è < 60%, fuzzy_merge lancerà ValueError("LOW_MATCH_SCORE")
             merged_df = fuzzy_merge.fuzzy_merge_datasets(scopus_file, scholar_file)
+            calculated_h_index = calculate_h_index_from_list(merged_df["citations_scholar"].tolist())
 
             if merged_df.empty:
                  return {"status": "error", "msg": "Il merge ha prodotto un risultato vuoto."}
@@ -213,7 +237,8 @@ def process_chosen_author(scopus_id, scopus_name, scholar_id):
                 "Numero Journal": len(merged_df[merged_df["type"].str.lower()=="journal"]),
                 "Numero Conference": len(merged_df[merged_df["type"].str.lower()=="conference proceeding"]),
                 "Numero Other Works": len(merged_df[~merged_df["type"].str.lower().isin(["journal","conference proceeding"])]),
-                "Anni di non pubblicazione": miss_yrs
+                "Anni di non pubblicazione": miss_yrs,
+                "H-index Calcolato (Aggregato)": int(calculated_h_index)
             }
             
             # SALVATAGGIO CACHE (Solo ora salviamo i risultati definitivi)
